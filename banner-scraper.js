@@ -53,40 +53,57 @@ const BANNER_JSON_BLANC = {
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-function filterNewspages( newspages ) {
-  const filteredNews = [];
+async function init() {
+  const start = performance.now();
+  const res = await fetch( 'https://webapi.browndust2.com/api/notices?locale=en-us&category=inspection' );
+  const jsonData = await res.json();
+  const inspections = jsonData.items;
 
-  for( let i = newspages.length - 1; i >= 0; i-- ) {
-    const currentNewsAtt = newspages[ i ].attributes;
+  if ( !inspections ) {
+    console.error( 'No data from API-Call' );
+    return;
+  }
 
-    if ( currentNewsAtt.tag !== 'maintenance' ) {
+  const inspectionFiltered = await filterInspection( inspections );
+
+  const bannerInfoArray = extractBannerInfo( inspectionFiltered );
+  cleanBannerStrings( bannerInfoArray );
+  const bannerArray = buildBannerObjects( bannerInfoArray );
+
+  console.log( makeStrColored( 'All Done!', COLORS.GREEN ) );
+
+  addBannersToDataFile( bannerArray );
+
+  const end = performance.now();
+  console.log( Math.trunc( end - start ) + " ms to execute the code..." )
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+async function filterInspection( inspections ) {
+  const contentUrls = [];
+
+  for( const inspection of inspections ) {
+    if ( !checkSubject( inspection.subject ) ) {
       continue;
     }
-
-    if ( !checkSubject( currentNewsAtt.subject ) ) {
-      continue;
-    }
-
-    if ( !checkRelevanceOfNews( currentNewsAtt.publishedAt ) ) {
+    if ( !checkRelevanceOfNews( inspection.publishedAt ) ) {
       break;
     }
 
-    filteredNews.push( {
-      content: currentNewsAtt.NewContent || currentNewsAtt.content,
-      publishDate: new Date( currentNewsAtt.publishedAt ) 
-    } );
+    contentUrls.push( `https://webapi.browndust2.com/api/notices/${ inspection.id }?locale=en-us` );
   }
 
-  return filteredNews;
+  const response = await Promise.all( contentUrls.map( url => fetch( url ) ) );
+  return await Promise.all( response.map( res => res.json() ) );
 }
-
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 function checkSubject( subject ) {
   subject = subject.toLowerCase();
-
   if ( subject.includes( 'routine maintenance and update complete' ) ) { //No banner info is in those news
     return false;
   }
@@ -108,49 +125,40 @@ function checkRelevanceOfNews( newsPublishDateString ) {
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-function extractBannerInfo( newsArray ) {
-  const filter = /(b-)?[a-z]+[\w\s]*costume\s*:[\w\s,:]*(\(utc\))?\s*[-~]+[\w\s,:]+(\(utc\))?/gi; //v2
+function extractBannerInfo( inspectionArray ) {
+  const filter = /(b-)?[a-z]+[\w\s]*costume\s*:[\w\s,:]*(\(utc\))?\s*[-~]+[\w\s,:]+(\(utc\))?/gmi; //v2
   const bannerInfoArray = [];
 
-  for( const maitenanceNews of newsArray ) {
-    const sections = maitenanceNews.content.split( '<p>' );
-    const filteredSections = filterSections( sections, filter );
+  for( const inspection of inspectionArray ) {
+    const filteredSections = filterSections( inspection.contentHtml, filter );
     const filteredSectionsWithPublishDate = filteredSections.map( section => {
       return {
         bannerString: section,
-        publishDate: maitenanceNews.publishDate
+        publishDate: inspection.publishedAt
       }
     } );
     bannerInfoArray.push( ...filteredSectionsWithPublishDate );
   }
+  // console.log( bannerInfoArray )
   return bannerInfoArray;
 }
 
 
-
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-function filterSections( sectionArray, regexFilter ) {
+function filterSections( inspection, regexFilter ) {
   const bannerArray = [];
-  for( const section of sectionArray ) {
-    if( !( section.toLowerCase().includes( 'available for pickup' ) || section.toLowerCase().includes( 'appear in the pickup' ) ) ) {
-      continue;
-    }
-    sectionParts = section.split( '<br>' );
-    let banner = null;
-    for ( const sectionPart of sectionParts ) {
-      // console.log(sectionPart)
-      if ( sectionPart.match( regexFilter ) ) {
-        banner = sectionPart.match( regexFilter );
-      }
-    }
-    console.log( banner )
+  const sectionParts = [];
+  inspection.split( '<div>' ).forEach( chunk => {
+    const parts = chunk.split( '<br>' );
+    sectionParts.push( ...parts );
+  } );
 
-    if( banner === null ) {
-      continue;
+  for ( const sectionPart of sectionParts ) {
+    const matchFounds = sectionPart.match( regexFilter );
+    if ( matchFounds ) {
+      bannerArray.push( ...matchFounds );
     }
-
-    bannerArray.push( ...banner );
   }
 
   return bannerArray;
@@ -182,8 +190,7 @@ function buildBannerObjects( bannerInfoArray ) {
 
   for( const bannerInfo of bannerInfoArray ) {
     const [ costumeString, dateString ] = bannerInfo.bannerString.split( '@' ).map( s => s.trim() );
-
-    const [ startDate, endDate ] = parseDateString( dateString, bannerInfo.publishDate );
+    const [ startDate, endDate ] = parseDateString( dateString, new Date( bannerInfo.publishDate ) );
 
     if ( new Date( endDate ).getTime() - new Date().getTime() < 0 ) {
       continue;
@@ -369,30 +376,5 @@ function makeStrColored( str, color ) {
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-async function init() {
-  const start = performance.now();
-  const res = await fetch( 'https://www.browndust2.com/api/newsData_en.json' );
-  const jsonData = await res.json();
-  const newspages = jsonData.data;
-
-  if ( !newspages ) {
-    console.error( 'No data from API-Call' );
-    return;
-  }
-
-  const maitenanceNews = filterNewspages( newspages );
-
-  const bannerInfoArray = extractBannerInfo( maitenanceNews );
-  cleanBannerStrings( bannerInfoArray );
-  const bannerArray = buildBannerObjects( bannerInfoArray );
-
-  console.log( makeStrColored( 'All Done!', COLORS.GREEN ) );
-
-  addBannersToDataFile( bannerArray );
-
-  const end = performance.now();
-  console.log( Math.trunc( end - start ) + " ms to execute the code..." )
-}
 
 init();

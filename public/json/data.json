@@ -1,6 +1,6 @@
 {
   "tldr": [
-        {
+    {
       "id": "ocean_vanguard",
       "displayName": "Ocean Vanguard Luvencia",
       "costumeUpgrade": 1
@@ -36,11 +36,6 @@
       "costumeUpgrade": 5
     },
     {
-      "id": "beach_vacation",
-      "displayName": "Beach Vacantion Morpeah",
-      "costumeUpgrade": 0
-    },
-    {
       "id": "deadeye",
       "displayName": "Deadeye Nekyndalia",
       "costumeUpgrade": 1
@@ -49,11 +44,6 @@
       "id": "beachside_justice",
       "displayName": "Beachside Justice Michaela",
       "costumeUpgrade": 1
-    },
-    {
-      "id": "beach_vacation",
-      "displayName": "Beach Vacantion Morpeah",
-      "costumeUpgrade": 5
     },
     {
       "id": "pool_party_s",
@@ -93,35 +83,66 @@
   ],
   "banner": [
     {
-      "charName": "Morpeah",
-      "dmgAtt": "wam",
-      "costumeName": "Beach Vacation",
+      "charName": "Darian",
+      "dmgAtt": "wap",
+      "costumeName": "Prophetic Dream",
       "role": "DPS",
-      "imgName": "beach_vacation",
-      "startDate": "2026-05-28T00:00:00.000Z",
-      "endDate": "2026-06-10T23:59:59.000Z",
+      "imgName": "prophetic_dream",
+      "startDate": "2026-06-04T04:30:00.000Z",
+      "endDate": "2026-07-01T23:50:00.000Z",
       "breakpoints": [
         [
-          "0",
-          "As baseline for futher upgrades"
+          "1",
+          "-1 SP"
         ]
       ],
-      "pullReason": "<b>Ideally, yes, but... (Recommended / Optional)</b>. Getting at least +0 is a great, since this the best Water Mage DPS at the moment.<br>However, her output heavily scales with copies, and overcommitting to the banner can bite you during the Anniversary.",
+      "pullReason": "<b>Recommanded</b>. Darian is a great DPS... if she can hit enough tiles. She mostly suffers from the weak Skillpattern. Darian is a stable atm in Last Night and every FH / GR her Attack hits a lot of tiles otherwise she is outclassed by other water dpses.",
       "pros": [
-        "Best Water Magic DPS",
-        "Versatile Costume"
+        "High DMG on Main Target"
       ],
       "cons": [
-        "Heavily copies-dependent for damage scale"
+        "Skip X-Pattern"
       ],
       "modes": {
-        "gr": "Meta",
-        "fh": "Meta",
-        "ln": "Not playable",
-        "tos": "Good (Staller + DPS)",
-        "mw": "Mid / Bad",
-        "gc": "Not used",
-        "gen": "Mid / Niche"
+        "gr": "Niche",
+        "fh": "Niche",
+        "ln": "Meta",
+        "tos": "Mid",
+        "mw": "Bad",
+        "gc": "Niche",
+        "gen": "Niche"
+      }
+    },
+    {
+      "charName": "Justia",
+      "dmgAtt": "lp",
+      "costumeName": "Pool Party",
+      "role": "Evader / Selfbuffer",
+      "imgName": "pool_party_justia",
+      "startDate": "2026-06-04T04:30:00.000Z",
+      "endDate": "2026-07-01T23:50:00.000Z",
+      "breakpoints": [
+        [
+          "3",
+          "-1 SP"
+        ]
+      ],
+      "pullReason": "<b>Optional</b>. Justia really suffers from beeing an old Unit. Her main focus is fixed DMG which this costume helps via selfbuff. Problem is just Fixed DMG is really bad outside of PVP. And even in PVP Olivier pretty much replaced her there with a preemptive Evade.",
+      "pros": [
+        "Selfbuff",
+        "100% Evades"
+      ],
+      "cons": [
+        "Fixed Dmg is Justia Main DMG Source"
+      ],
+      "modes": {
+        "gr": "Unusable",
+        "fh": "Unusable",
+        "ln": "Unusable",
+        "tos": "Mid",
+        "mw": "Good",
+        "gc": "Good",
+        "gen": "Bad"
       }
     },
     {
@@ -165,6 +186,39 @@
       }
     },
     {
+      "charName": "Michaela",
+      "dmgAtt": "lm",
+      "costumeName": "Beachside Justice",
+      "role": "Selfbuff / DPS",
+      "imgName": "beachside_justice",
+      "startDate": "2026-06-04T04:30:00.000Z",
+      "endDate": "2026-07-01T23:50:00.000Z",
+      "breakpoints": [
+        [
+          "1",
+          "-1 SP"
+        ]
+      ],
+      "pullReason": "<b>No</b>. Michaela can buff herself for strong follow up turns with her 'Queen of Signatures'-Costume. Big Downside is her HP-Reduction from useing this Skill. Pattern also not the greatest.",
+      "pros": [
+        "Increase of MATK"
+      ],
+      "cons": [
+        "Deal 80% of Current HP as DMG to Michaela",
+        "Niche Pattern",
+        "Meh DMG"
+      ],
+      "modes": {
+        "gr": "Niche",
+        "fh": "Niche",
+        "ln": "Bad",
+        "tos": "Bad",
+        "mw": "Niche",
+        "gc": "Bad",
+        "gen": "Bad"
+      }
+    },
+    {
       "charName": "Nekyndalia",
       "dmgAtt": "wim",
       "costumeName": "Deadeye",
@@ -202,7 +256,7 @@
       "dmgAtt": "wam",
       "costumeName": "Pool Party",
       "role": "Buff Remover / 'Chainer'",
-      "imgName": "pool_party_s",
+      "imgName": "pool_party_scheherazade",
       "startDate": "2026-06-04T04:30:00.000Z",
       "endDate": "2026-07-01T23:50:00.000Z",
       "breakpoints": [
@@ -227,102 +281,6 @@
         "tos": "Bad",
         "mw": "Meta",
         "gc": "Mid",
-        "gen": "Bad"
-      }
-    },
-    {
-      "charName": "Justia",
-      "dmgAtt": "lp",
-      "costumeName": "Pool Party",
-      "role": "Evader / Selfbuffer",
-      "imgName": "pool_party_j",
-      "startDate": "2026-06-04T04:30:00.000Z",
-      "endDate": "2026-07-01T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "3",
-          "-1 SP"
-        ]
-      ],
-      "pullReason": "<b>Optional</b>. Justia really suffers from beeing an old Unit. Her main focus is fixed DMG which this costume helps via selfbuff. Problem is just Fixed DMG is really bad outside of PVP. And even in PVP Olivier pretty much replaced her there with a preemptive Evade.",
-      "pros": [
-        "Selfbuff",
-        "100% Evades"
-      ],
-      "cons": [
-        "Fixed Dmg is Justia Main DMG Source"
-      ],
-      "modes": {
-        "gr": "Unusable",
-        "fh": "Unusable",
-        "ln": "Unusable",
-        "tos": "Mid",
-        "mw": "Good",
-        "gc": "Good",
-        "gen": "Bad"
-      }
-    },
-    {
-      "charName": "Darian",
-      "dmgAtt": "wap",
-      "costumeName": "Prophetie Dream",
-      "role": "DPS",
-      "imgName": "prophetie_dream",
-      "startDate": "2026-06-04T04:30:00.000Z",
-      "endDate": "2026-07-01T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ]
-      ],
-      "pullReason": "<b>Recommanded</b>. Darian is a great DPS... if she can hit enough tiles. She mostly suffers from the weak Skillpattern. Darian is a stable atm in Last Night and every FH / GR her Attack hits a lot of tiles otherwise she is outclassed by other water dpses.",
-      "pros": [
-        "High DMG on Main Target"
-      ],
-      "cons": [
-        "Skip X-Pattern"
-      ],
-      "modes": {
-        "gr": "Niche",
-        "fh": "Niche",
-        "ln": "Meta",
-        "tos": "Mid",
-        "mw": "Bad",
-        "gc": "Niche",
-        "gen": "Niche"
-      }
-    },
-    {
-      "charName": "Michaela",
-      "dmgAtt": "lm",
-      "costumeName": "Beachside Justice",
-      "role": "Selfbuff / DPS",
-      "imgName": "beachside_justice",
-      "startDate": "2026-06-04T04:30:00.000Z",
-      "endDate": "2026-07-01T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ]
-      ],
-      "pullReason": "<b>No</b>. Michaela can buff herself for strong follow up turns with her 'Queen of Signatures'-Costume. Big Downside is her HP-Reduction from useing this Skill. Pattern also not the greatest.",
-      "pros": [
-        "Increase of MATK"
-      ],
-      "cons": [
-        "Deal 80% of Current HP as DMG to Michaela",
-        "Niche Pattern",
-        "Meh DMG"
-      ],
-      "modes": {
-        "gr": "Niche",
-        "fh": "Niche",
-        "ln": "Bad",
-        "tos": "Bad",
-        "mw": "Niche",
-        "gc": "Bad",
         "gen": "Bad"
       }
     }
