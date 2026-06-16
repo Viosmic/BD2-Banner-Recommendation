@@ -11,8 +11,8 @@
       "costumeUpgrade": 2
     },
     {
-      "id": "prophetie_dream",
-      "displayName": "Prophetie Dream Darian",
+      "id": "prophetic_dream",
+      "displayName": "Prophetic Dream Darian",
       "costumeUpgrade": 1
     },
     {
@@ -21,8 +21,8 @@
       "costumeUpgrade": 4
     },
     {
-      "id": "prophetie_dream",
-      "displayName": "Prophetie Dream Darian",
+      "id": "prophetic_dream",
+      "displayName": "Prophetic Dream Darian",
       "costumeUpgrade": 3
     },
     {
@@ -31,8 +31,8 @@
       "costumeUpgrade": 5
     },
     {
-      "id": "prophetie_dream",
-      "displayName": "Prophetie Dream Darian",
+      "id": "prophetic_dream",
+      "displayName": "Prophetic Dream Darian",
       "costumeUpgrade": 5
     },
     {
@@ -82,6 +82,112 @@
     }
   ],
   "banner": [
+    {
+      "charName": "Luvencia",
+      "dmgAtt": "dp",
+      "costumeName": "Ocean Vanguard",
+      "role": "Selfbuffer / Chainer",
+      "imgName": "ocean_vanguard",
+      "startDate": "2026-06-04T04:30:00.000Z",
+      "endDate": "2026-07-01T23:50:00.000Z",
+      "breakpoints": [
+        [
+          "1",
+          "-1 SP"
+        ],
+        [
+          "2",
+          "higher ATK Gain per Hit"
+        ],
+        [
+          "4",
+          "higher Chain DMG Gain"
+        ]
+      ],
+      "pullReason": "<b>Meta</b>. She will help the other costumes of her to do just more DMG and can stack a few chains on off turns on longer fights. The Buff has a full uptime which is always good!",
+      "pros": [
+        "Selfbuff-Costume",
+        "Chainer for other DPSes"
+      ],
+      "cons": [
+        "Needs other Costumes to get benfit from selfbuffs"
+      ],
+      "modes": {
+        "gr": "Meta",
+        "fh": "Meta",
+        "ln": "Decent",
+        "tos": "Good",
+        "mw": "Bad",
+        "gc": "Bad",
+        "gen": "Mid"
+      }
+    },
+    {
+      "charName": "Nekyndalia",
+      "dmgAtt": "wim",
+      "costumeName": "Deadeye",
+      "role": "Chainer",
+      "imgName": "deadeye",
+      "startDate": "2026-06-04T04:30:00.000Z",
+      "endDate": "2026-06-17T23:59:59.000Z",
+      "breakpoints": [
+        [
+          "1",
+          "-1 SP"
+        ]
+      ],
+      "pullReason": "<b>Maybe</b>. She is mostly a PVP Unit for now with just one costume. High Chain are good in Last Night. Otherwise not really worth the pulls for now.",
+      "pros": [
+        "High Chains",
+        "First Costumes that can ignore Evades"
+      ],
+      "cons": [
+        "Niche Pattern",
+        "Only 1 Costume atm"
+      ],
+      "modes": {
+        "gr": "Niche",
+        "fh": "Niche",
+        "ln": "Good",
+        "tos": "Mid",
+        "mw": "Good?",
+        "gc": "Good?",
+        "gen": "Bad"
+      }
+    },
+    {
+      "charName": "Michaela",
+      "dmgAtt": "lm",
+      "costumeName": "Beachside Justice",
+      "role": "Selfbuff / DPS",
+      "imgName": "beachside_justice",
+      "startDate": "2026-06-04T04:30:00.000Z",
+      "endDate": "2026-07-01T23:50:00.000Z",
+      "breakpoints": [
+        [
+          "1",
+          "-1 SP"
+        ]
+      ],
+      "pullReason": "<b>No</b>. Michaela can buff herself for strong follow up turns with her 'Queen of Signatures'-Costume. Big Downside is her HP-Reduction from useing this Skill. Pattern also not the greatest.",
+      "pros": [
+        "Increase of MATK"
+      ],
+      "cons": [
+        "Deal 80% of Current HP as DMG to Michaela",
+        "Niche Pattern",
+        "Meh DMG"
+      ],
+      "modes": {
+        "gr": "Niche",
+        "fh": "Niche",
+        "ln": "Bad",
+        "tos": "Bad",
+        "mw": "Niche",
+        "gc": "Bad",
+        "gen": "Bad"
+      }
+    },
     {
       "charName": "Darian",
       "dmgAtt": "wap",
@@ -142,112 +248,6 @@
         "tos": "Mid",
         "mw": "Good",
         "gc": "Good",
-        "gen": "Bad"
-      }
-    },
-    {
-      "charName": "Luvencia",
-      "dmgAtt": "dp",
-      "costumeName": "Ocean Vanguard",
-      "role": "Selfbuffer / Chainer",
-      "imgName": "ocean_vanguard",
-      "startDate": "2026-06-04T04:30:00.000Z",
-      "endDate": "2026-07-01T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ],
-        [
-          "2",
-          "higher ATK Gain per Hit"
-        ],
-        [
-          "4",
-          "higher Chain DMG Gain"
-        ]
-      ],
-      "pullReason": "<b>Meta</b>. She will help the other costumes of her to do just more DMG and can stack a few chains on off turns on longer fights. The Buff has a full uptime which is always good!",
-      "pros": [
-        "Selfbuff-Costume",
-        "Chainer for other DPSes"
-      ],
-      "cons": [
-        "Needs other Costumes to get benfit from selfbuffs"
-      ],
-      "modes": {
-        "gr": "Meta",
-        "fh": "Meta",
-        "ln": "Decent",
-        "tos": "Good",
-        "mw": "Bad",
-        "gc": "Bad",
-        "gen": "Mid"
-      }
-    },
-    {
-      "charName": "Michaela",
-      "dmgAtt": "lm",
-      "costumeName": "Beachside Justice",
-      "role": "Selfbuff / DPS",
-      "imgName": "beachside_justice",
-      "startDate": "2026-06-04T04:30:00.000Z",
-      "endDate": "2026-07-01T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ]
-      ],
-      "pullReason": "<b>No</b>. Michaela can buff herself for strong follow up turns with her 'Queen of Signatures'-Costume. Big Downside is her HP-Reduction from useing this Skill. Pattern also not the greatest.",
-      "pros": [
-        "Increase of MATK"
-      ],
-      "cons": [
-        "Deal 80% of Current HP as DMG to Michaela",
-        "Niche Pattern",
-        "Meh DMG"
-      ],
-      "modes": {
-        "gr": "Niche",
-        "fh": "Niche",
-        "ln": "Bad",
-        "tos": "Bad",
-        "mw": "Niche",
-        "gc": "Bad",
-        "gen": "Bad"
-      }
-    },
-    {
-      "charName": "Nekyndalia",
-      "dmgAtt": "wim",
-      "costumeName": "Deadeye",
-      "role": "Chainer",
-      "imgName": "deadeye",
-      "startDate": "2026-06-04T04:30:00.000Z",
-      "endDate": "2026-06-17T23:59:59.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ]
-      ],
-      "pullReason": "<b>Maybe</b>. She is mostly a PVP Unit for now with just one costume. High Chain are good in Last Night. Otherwise not really worth the pulls for now.",
-      "pros": [
-        "High Chains",
-        "First Costumes that can ignore Evades"
-      ],
-      "cons": [
-        "Niche Pattern",
-        "Only 1 Costume atm"
-      ],
-      "modes": {
-        "gr": "Niche",
-        "fh": "Niche",
-        "ln": "Good",
-        "tos": "Mid",
-        "mw": "Good?",
-        "gc": "Good?",
         "gen": "Bad"
       }
     },
