@@ -1,6 +1,21 @@
 {
   "tldr": [
     {
+      "id": "beachside_angel",
+      "displayName": "Beachside Angel Teresse",
+      "costumeUpgrade": 1
+    },
+    {
+      "id": "beachside_angel",
+      "displayName": "Beachside Angel Teresse",
+      "costumeUpgrade": 3
+    },
+    {
+      "id": "beachside_angel",
+      "displayName": "Beachside Angel Teresse",
+      "costumeUpgrade": 5
+    },
+    {
       "id": "ocean_vanguard",
       "displayName": "Ocean Vanguard Luvencia",
       "costumeUpgrade": 1
@@ -26,6 +41,11 @@
       "costumeUpgrade": 3
     },
     {
+      "id": "combat_medic",
+      "displayName": "Combat Medic Granhildr",
+      "costumeUpgrade": 1
+    },
+    {
       "id": "ocean_vanguard",
       "displayName": "Ocean Vanguard Luvencia",
       "costumeUpgrade": 5
@@ -39,6 +59,11 @@
       "id": "deadeye",
       "displayName": "Deadeye Nekyndalia",
       "costumeUpgrade": 1
+    },
+    {
+      "id": "combat_medic",
+      "displayName": "Combat Medic Granhildr",
+      "costumeUpgrade": 3
     },
     {
       "id": "beachside_justice",
@@ -64,6 +89,11 @@
       "id": "pool_party_justia",
       "displayName": "Pool Party Justia",
       "costumeUpgrade": 3
+    },
+    {
+      "id": "combat_medic",
+      "displayName": "Combat Medic Granhildr",
+      "costumeUpgrade": 5
     },
     {
       "id": "pool_party_scheherazade",
@@ -86,25 +116,33 @@
       "charName": "Teresse",
       "dmgAtt": "wap",
       "costumeName": "Beachside Angel",
-      "role": "",
+      "role": "Support / Buffer",
       "imgName": "beachside_angel",
       "startDate": "2026-07-02T04:30:00.000Z",
       "endDate": "2026-07-30T23:50:00.000Z",
       "prio": 1,
       "breakpoints": [
-        []
+        ["1", "-1 SP"],
+        ["3", "Higher Duration (4 &rarr; 8 Turns)"]
       ],
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullReason": "<b>Absolutely (Must)</b>. Teresse is a must have support thanks to her versatility for both Magic and Physical teams. Additionally, her buff is not diluted by most buffs (except another Augmentation and Vulnerability), which makes her multiply damage outputeffectively.<br><br>The only downside is locking your team onto low chains setup, which is slight problem for Guild Raid and sometimes Fiend Hunter, but otherwise, she carries insane value as a Support.",
+      "pros": [
+        "Meta Support",
+        "Strong Buff Value in unique damage bracket",
+        "Universal for both Magic and Physical Teams"
+      ],
+      "cons": [
+        "Requires low chains",
+        "Limited Costume"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Rarely playable",
+        "fh": "Meta",
+        "ln": "Not playable",
+        "tos": "Team-dependent",
+        "mw": "Not played",
+        "gc": "Meta",
+        "gen": "Meta"
       }
     },
     {
@@ -185,11 +223,11 @@
         ],
         [
           "2",
-          "higher ATK Gain per Hit"
+          "Higher ATK Gain per Hit"
         ],
         [
           "4",
-          "higher Chain DMG Gain"
+          "Higher Chain DMG Gain"
         ]
       ],
       "pullReason": "<b>Meta</b>. She will help the other costumes of her to do just more DMG and can stack a few chains on off turns on longer fights. The Buff has a full uptime which is always good!",
@@ -313,24 +351,32 @@
       "charName": "Granhildr",
       "dmgAtt": "lp",
       "costumeName": "Combat Medic",
-      "role": "",
+      "role": "Self-buffer, DPS",
       "imgName": "combat_medic",
       "startDate": "2026-06-18T04:30:00.000Z",
       "endDate": "2026-07-01T23:50:00.000Z",
       "breakpoints": [
-        []
+        ["1", "-1 SP"],
+        ["3", "Increased Crit DMG Buff (100 &rarr; 150%)"]
       ],
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullReason": "<b>Depends (Optional / Recommended)</b>. To put it simply, if you have your Granhildr already built, she is important to get at least +3 for the maximum self-buff value for Boo Ghost Costume. Otherwise, you could compromise at +1, since, without strong Comeback Idol and Boo Ghost dupes, her damage will not be great.<br><br>Buff requirenment is very easy to obtain, so she will work as Beach Sylvia in that regard most of the time.",
+      "pros": [
+        "Self-buffer",
+        "Makes rotation a bit more clear",
+        "Cheap damage"
+      ],
+      "cons": [
+        "Useless without invested other Granhildr Costumes (Comeback Idol + Boo Ghost)",
+        "Not the best CDMG Buff value (200% only)"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Good",
+        "fh": "Good",
+        "ln": "Not usable",
+        "tos": "Not usable / Very Niche",
+        "mw": "Not usable / Very Niche",
+        "gc": "Not usable / Very Niche",
+        "gen": "Not usable"
       }
     }
   ],
