@@ -127,6 +127,7 @@ async function createBannerCards( bannerData, damageAttributes ) {
     const dmgTypeLine = bannerCard.querySelector( '[ data-dmg-type ]' );
     const dmgTypeText = document.createTextNode( dmgAtt.dmgType );
     dmgTypeLine.appendChild( dmgTypeText );
+    dmgTypeLine.classList.add( `text-${ dmgAtt.dmgType.toLowerCase() }` );
     dmgTypeLine.classList.remove( 'data-dmg-type' );
 
     const startDate = new Date( Date.parse( bannerChar.startDate ) );

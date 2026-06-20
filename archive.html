@@ -16,9 +16,7 @@
   <meta name="robots" content="index, follow">
   <meta name="googlebot" content="index, follow">
 
-  <link rel="preload" href="./public/json/data.json" crossorigin="anonymous" as="fetch">
-  <link rel="preload" href="./public/json/utils.json" crossorigin="anonymous" as="fetch">
-  <link rel="preload" href="./public/js/generateSite.js" crossorigin="anonymous" as="script">
+  <link rel="preload" href="./public/js/generateArchive.js" crossorigin="anonymous" as="script">
   <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" as="style">
   <link rel="preload" href="./public/css/custom.css" crossorigin="anonymous" as="style">
   <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous" as="script">
@@ -34,7 +32,7 @@
 
         <div class="d-flex flex-row align-items-center">
           <div class="pe-3"><b>Banner Recommendation</b></div>
-          <div> <a class="btn btn-outline-secondary" href="/archive.html">Archive</a></div>
+          <div> <a class="btn btn-outline-secondary" href="/">Current Banners</a></div>
         </div>
 
         <ul class="navbar-nav flex-row gap-3">
@@ -49,35 +47,43 @@
               @zormolo
             </a
 >         </li>
-          <li class="nav-item">
-            <select data-shortcut-container class="form-select text-truncate"></select>
-          </li>
         </ul>
 
       </div>
     </nav>
   </header>
-  <main class="row">
+
+<main class="row">
     <div id="main-container" class="container-fluid pt-2">
       <div class="row pb-3">
         <div class="col-12 col-md-11 col-xl-10 mx-auto">
-          <section class="container-fluid pb-2 border rounded-top">
+          <section class="container-fluid pb-2 border rounded bg-danger-subtle border-danger-subtle">
 
             <div class="row">
-              <div class="col-2 d-flex justify-content-center mx-0 flex-grow-1">
-                <h1><u>TLDR</u></h1>
+              <div class="col-2 d-flex justify-content-center mx-0 flex-grow-1 text-danger-emphasis">
+                <h2><u>Disclaimer</u></h2>
               </div>
             </div>
 
             <div class="row">
-              <div data-tldr class="col-12 pb-2 d-flex flex-wrap justify-content-center arrowHide"></div>
+              <div class="col-2 d-flex flex-column mx-0 flex-grow-1 text-center text-danger-emphasis">
+                <div class="col">
+                  The meta changes constantly as new costumes are released. All recommendations are based on the last banner run shown on each costume card.
+                </div>
+                <div class="col pt-2">
+                  If a costume has not had a rerun for a long time, there is a high chance that its recommendation or rating is no longer accurate. Recommendations are only updated after a new rerun banner for that costume has ended.
+                </div>
+                <div class="col pt-2">
+                  There are some recommendations for pub costumes with a hint to claim it for 10 tickets. You will not get those tickets unless a banner for that costume is active!
+                </div>
+              </div>
             </div>
 
           </section>
         </div>
       </div>
 
-      <template id="charBannerCard">
+      <template id="costumeCard">
         <section data-char-banner-card class="row pt-2">
           <div class="col-11 mx-auto bg-body-tertiary rounded">
             <div class="row h-100 py-2">
@@ -126,8 +132,8 @@
                             <li><span><b>Element - </b><img data-property loading="lazy" width="32px" height="32px"></span></li>
                             <li><span data-dmg-type><b class="text-light">Damage Type - </b></span></li>
                             <br>
-                            <li data-banner-periode></li>
-                            <li data-banner-time-left></li>
+                            <li><b>Last Banner:</b></li>
+                            <li data-banner-periode class="text-danger"></li>
                           </ul>
                         </div>
                       </div>
@@ -239,8 +245,10 @@
           </div>
         </section>
       </template>
+
     </div>
   </main>
+
 
   <footer class="row bg-body-tertiary">
     <div class="container-fluid">
@@ -256,7 +264,7 @@
     </div>
   </footer>
 
-  <script src="./public/js/generateSite.js" crossorigin="anonymous"></script>
+  <script src="./public/js/generateArchive.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,1288 @@
+{
+  "innocent_bunny": {
+    "role": "DPS",
+    "startDate": "2025-12-31",
+    "endDate": "2026-01-14T23:50:00",
+    "breakpoints": [
+      [
+        "2",
+        "Big Damage Increase<br>[1160% &xrarr; 1400%, 8 SP consumed]"
+      ],
+      [
+        "4",
+        "Big Damage Increase<br>[1450% &xrarr; 1690%, 8 SP consumed]"
+      ]
+    ],
+    "pullReason": "<b>Depends.</b> She is good if you have Starlight Guardian Tyr, otherwise her usage is very limited. Consider pulling low dupe count in order to save for onsen banners."
+  },
+  "bittersweet_bunny": {
+    "role": "DPS",
+    "startDate": "2025-12-31",
+    "endDate": "2026-01-14T23:50:00",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ],
+      [
+        "2",
+        "-2 CD"
+      ]
+    ],
+    "pullReason": "<b>Yes</b>, although her priority is lower than, for example, Celia and Loen. Her conditional skill greatly limits her usage."
+  },
+  "celebrity_bunny": {
+    "role": "DPS",
+    "startDate": "2025-12-31",
+    "endDate": "2026-01-14T23:50:00",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ]
+    ],
+    "pullReason": "<b>Yes</b>. She is undeniably one of the strongest DPS for a general content, has good scaling versus a lot of enemies and is limited."
+  },
+  "masquerade_bunny": {
+    "role": "Chainer",
+    "startDate": "2025-12-31",
+    "endDate": "2026-01-07T23:59:59",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ],
+      [
+        "4",
+        "Buff Duration +2 turns"
+      ]
+    ],
+    "pullReason": "<u><b>Absolutely.</b></u> She is important <u><b>limited</b></u> support-chainer, used in almost every Fiend Hunter and Guild Raid season. Essential for her rest costumes to perform well."
+  },
+  "overheat": {
+    "role": "DPS",
+    "startDate": "2025-12-31",
+    "endDate": "2026-01-07T23:59:59",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ]
+    ],
+    "pullReason": "<b>Optional</b>. She was buffed recently but that does not make her more important compared to Tyr or other banners."
+  },
+  "robin_hood": {
+    "role": "Chainer, Amplifier",
+    "startDate": "2026-03-12T04:30:00.000Z",
+    "endDate": "2026-04-08T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "3",
+        "-1 SP"
+      ]
+    ],
+    "pullReason": "<b>Yes (Must)</b>. She is an important support for Fiend Hunter / Guild Raid. Her +3 dupe gives ability to use the costume for free (assuming Potential Liberation done), which is important in a lot of cases.",
+    "pros": [
+      "Single Target Chainer",
+      "Good Amplifier (Universal Vulnerability)",
+      "Imporant for a lot of modes"
+    ],
+    "cons": [],
+    "modes": {
+      "gr": "Meta",
+      "fh": "Meta",
+      "ln": "Good, inferior to other chainers",
+      "tos": "Niche but can be good",
+      "mw": "Decent",
+      "gc": "Mid?",
+      "gen": "Niche / Good"
+    }
+  },
+  "vanguard": {
+    "role": "DPS",
+    "startDate": "2025-12-31",
+    "endDate": "2026-01-14T23:50:00",
+    "breakpoints": [
+      [
+        "3",
+        "-1 SP"
+      ]
+    ],
+    "pullReason": "<b>No</b>, unless you are at the end game. He is niche DoT DPS who scales based on enemy Magic ATK, making him very niche."
+  },
+  "queen_of_gluttis": {
+    "role": "Buffer",
+    "startDate": "2026-01-15T00:00:00.000Z",
+    "endDate": "2026-02-11T23:59:59.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ]
+    ],
+    "pullReason": "<b>Absolutely</b>. She's an important Magic type buffer which is similar to Homunculus Lathel. She is new addition to general magic teams and thus should be pulled as much as possible.",
+    "pros": [
+      "Buffer / Support",
+      "SP Battery",
+      "Suitable for General content (newbie-friendly)"
+    ],
+    "cons": [],
+    "modes": {
+      "gr": "Meta",
+      "fh": "Meta",
+      "ln": "Decent (need more testing)",
+      "tos": "Good / Meta for magic teams",
+      "mw": "?",
+      "gc": "?",
+      "gen": "Meta"
+    }
+  },
+  "snow_white": {
+    "role": "DPS",
+    "startDate": "2026-01-08T00:00:00.000Z",
+    "endDate": "2026-01-21T23:59:59.000Z",
+    "breakpoints": [
+      [
+        "3",
+        "-1 SP"
+      ]
+    ],
+    "pullReason": "<b>Not quite</b>, unless you have a lot of spare pulls. This costume has great damage capabilities for a nuker like Ventana, but high breakpoint (+3) and other banners priorities shift focus from this one.",
+    "pros": [
+      "Good Physical Nuker",
+      "Highest multiplier amongst Ventana's costumes",
+      "Wider AOE compared to rest of Ventana's costumes"
+    ],
+    "cons": [
+      "Hardly suitable for general content",
+      "Less important in comparison to rest banners"
+    ],
+    "modes": {
+      "gr": "Good",
+      "fh": "Good",
+      "ln": "Decent, loses to rest DPS",
+      "tos": "Niche / Decent",
+      "mw": "Bad",
+      "gc": "Mid / Bad",
+      "gen": "Niche / Decent"
+    }
+  },
+  "shrine_maiden_of_purification": {
+    "role": "Buffer",
+    "startDate": "2026-01-15T04:30:00.000Z",
+    "endDate": "2026-02-11T23:59:59.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ]
+    ],
+    "pullReason": "<b>Yes</b>. This is rotational costume for Granadair, which is more niche compared to Queen of Gluttis, but still good. NEED KIT INFO BRRRR",
+    "pros": [
+      "Buffer / Support",
+      "Unique support mechanics"
+    ],
+    "cons": [
+      "More niche compared to another Granadair costume"
+    ],
+    "modes": {
+      "gr": "Good / Niche",
+      "fh": "Good / Niche",
+      "ln": "Bad",
+      "tos": "Mid",
+      "mw": "?",
+      "gc": "?",
+      "gen": "Niche"
+    }
+  },
+  "onsen_manager": {
+    "role": "Buffer",
+    "startDate": "2026-01-15T04:30:00.000Z",
+    "endDate": "2026-02-11T23:49:59.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ]
+    ],
+    "pullReason": "<b>Absolutely (MUST)</b>. This costume is rotational costume to Dark Saintess Liberta, providing bonus for high-chain teams. Necessary for Guild Raid, Fiend Hunter, Last Night.",
+    "pros": [
+      "Buffer",
+      "Essential for high-chain teams"
+    ],
+    "cons": [
+      "Not suitable for general content"
+    ],
+    "modes": {
+      "gr": "Meta",
+      "fh": "Meta",
+      "ln": "Meta",
+      "tos": "Niche",
+      "mw": "Bad",
+      "gc": "Bad",
+      "gen": "Niche / Bad"
+    }
+  },
+  "onsen_practitioner": {
+    "role": "DPS",
+    "startDate": "2026-01-22T00:00:00.000Z",
+    "endDate": "2026-02-04T23:59:59.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ],
+      [
+        "3",
+        "Huge Light Vulnerability increase (100 &rarr; 200%)"
+      ]
+    ],
+    "pullReason": "<b>Not quite (Optional / Skip)</b>. This costume is the weakest amongst all 3 Ventana costumes, offering self-buff. Similar to Snow White, requires somewhat high dupe for last breakpoint. Loses in priority to rest banners. Mostly used as rotation for Fiend Hunter and Guild Raid.",
+    "pros": [
+      "Rotational costume for Ventana",
+      "Damage self-amplfier"
+    ],
+    "cons": [
+      "Weakest damage of all 3 Ventana costumes",
+      "Less important in comparison to rest banners",
+      "High breakpoint"
+    ],
+    "modes": {
+      "gr": "Good",
+      "fh": "Good",
+      "ln": "Bad",
+      "tos": "Niche / Bad",
+      "mw": "Bad",
+      "gc": "Bad",
+      "gen": "Bad"
+    }
+  },
+  "the_fiend_scholar": {
+    "role": "Support / SP Battery",
+    "startDate": "2026-01-15T04:30:00.000Z",
+    "endDate": "2026-01-21T23:59:59.000Z",
+    "breakpoints": [
+      [
+        "3",
+        "-1 SP"
+      ]
+    ],
+    "pullReason": "<b>Not really. (Optional / Skip)</b>. He is somewhat niche support, providing SP regen and silencing enemies. Unfortunately for him, Silence works on limited pool of enemies, and his SP battery has somewhat long cooldown.<br><br><i>Make sure to recruit him from <b>pub</b> for free 10 Draw Tickets.</i>",
+    "pros": [
+      "Support"
+    ],
+    "cons": [
+      "Niche",
+      "Less important in comparison to rest banners"
+    ],
+    "modes": {
+      "gr": "Bad",
+      "fh": "Bad",
+      "ln": "Bad",
+      "tos": "Decent",
+      "gen": "Good for towers, mid / niche for rest"
+    }
+  },
+  "onsen_swordfighter": {
+    "role": "DPS",
+    "startDate": "2026-01-29T03:30:00.000Z",
+    "endDate": "2026-02-11T23:49:59.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ],
+      [
+        "3",
+        "Conditional skill DMG increase (70% &rarr; 90%)"
+      ],
+      [
+        "5",
+        "Conditional skill DMG increase (90% &rarr; 110%)"
+      ]
+    ],
+    "pullReason": "<b>Depends (Optional / Skip)</b>. This costume is pure DPS with slight synergy with Young Lady Costume, but requires way more than that to be good.",
+    "pros": [
+      "Fills / Finishes Blade rotation",
+      "Decent DMG output in proper teams",
+      "Synergy with Young Lady Blade"
+    ],
+    "cons": [
+      "Hard to utilize Conditional DMG to full extend",
+      "Loses priority due to supports in other banners",
+      "Weaker AoE compared to Young Lady Costume"
+    ],
+    "modes": {
+      "gr": "Decent / Good",
+      "fh": "Decent / Good",
+      "ln": "Mid / Bad",
+      "tos": "Niche / Bad",
+      "mw": "Bad / Niche ?",
+      "gc": "Mid / Niche ?",
+      "gen": "Mid / Niche"
+    }
+  },
+  "sword_breaker": {
+    "role": "DPS",
+    "startDate": "2026-01-29T03:30:00.000Z",
+    "endDate": "2026-02-04T23:59:59.000Z",
+    "breakpoints": [
+      [
+        "3",
+        "-1 SP"
+      ]
+    ],
+    "pullReason": "<b>No (Skip)</b>. This costume, and Alec overall, is niche PvP unit, meaning you should not go for him at all.",
+    "pros": [
+      "Decent high Fixed Damage"
+    ],
+    "cons": [
+      "Fixed Damage is very hard to utilize in PvE",
+      "Outclassed in most PvP comps",
+      "Bad AoE"
+    ],
+    "modes": {
+      "gr": "Terrible",
+      "fh": "Terrible",
+      "ln": "Terrible / Bad",
+      "tos": "Terrible / Bad",
+      "mw": "Decent / Niche",
+      "gc": "Bad",
+      "gen": "Terrible"
+    }
+  },
+  "apostle_blade": {
+    "role": "DPS / Counter",
+    "startDate": "2026-02-05T00:00:00.000Z",
+    "endDate": "2026-02-18T23:59:59.000Z",
+    "breakpoints": [
+      [
+        "2",
+        "Increased hits amount for counter (8 &rarr; 10)"
+      ]
+    ],
+    "pullReason": "<b>Depends (Optional)</b>. This is main Blade DPS costume and it has high ceiling, but is niche in PvE due to counter mechanic. This banner additionally loses priority due to buffers still being available during first week.<br><br><i>Make sure to recruit her from <b>pub</b> to get 10 tickets. </i>",
+    "pros": [
+      "Main Blade DPS Costume"
+    ],
+    "cons": [
+      "Niche usage of Counter mechanic",
+      "Requires external investment due to her being a glass cannon unit"
+    ],
+    "modes": {
+      "gr": "Excellent / Good",
+      "fh": "Excellent / Good",
+      "ln": "Mid",
+      "tos": "Niche / Mid",
+      "gc": "Meta",
+      "gen": "Meta for Tower of Wrath, Niche / Mid for rest"
+    }
+  },
+  "magical_innovator": {
+    "role": "Buffer / Support / Summoner",
+    "startDate": "2026-02-11T04:30:00.000Z",
+    "endDate": "2026-02-25T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "0",
+        "As baseline for futher upgrades"
+      ]
+    ],
+    "pullReason": "<b>You should (Recommended)</b>. While this costume has own issues and just dilutes the Property Damage Increase, it still is a buffer and you basically lose nothing when using it.<br>+0 already gives 100% Property Damage buff (on max stacks) which is good enough if you're new player, higher dupes are important for mostly rankers and late-game players.",
+    "pros": [
+      "Decent buff with full stacks",
+      "Preemptive costume",
+      "Increases Diana's tankiness on the field",
+      "Moderately cheap summon that can be used as a meat shield for cheesing some fights (although niche)"
+    ],
+    "cons": [
+      "Slow to gain max buff (7 turns)",
+      "Summon must always activate the ability to keep the stacks",
+      "Summon has mediocre AoE"
+    ],
+    "modes": {
+      "gr": "Meta",
+      "fh": "Excellent / Meta",
+      "ln": "Not usable",
+      "tos": "Niche / Not usable",
+      "mw": "Should not be usable",
+      "gc": "Should not be usable",
+      "gen": "Bad / Extremely niche"
+    }
+  },
+  "maid_name_r": {
+    "role": "DPS",
+    "startDate": "2026-02-19T00:00:00.000Z",
+    "endDate": "2026-03-04T23:59:59.000Z",
+    "breakpoints": [
+      [
+        "2",
+        "Bigger increase of both base & conditional damage (400% &rarr; 475%; 600% &rarr; 675%) "
+      ],
+      [
+        "4",
+        "Bigger increase of both base & conditional damage (475% &rarr; 550%; 725% &rarr; 800%) "
+      ]
+    ],
+    "pullReason": "<b>Somewhat depends (Optional)</b>. This costume is a great DPS, especially in Fiend Hunter / Guild Raid, but after the DoT cap stacks increase she's moved towards the usage on the last turn only, making her more ranking costume.",
+    "pros": [
+      "3x3 AoE",
+      "Good damage output"
+    ],
+    "cons": [
+      "Relies on having DoT to shine"
+    ],
+    "modes": {
+      "gr": "Excellent / Meta",
+      "fh": "Excellent / Meta",
+      "ln": "Mid / Bad",
+      "tos": "Decent / Good",
+      "mw": "Not used",
+      "gc": "Not used",
+      "gen": "Decent"
+    }
+  },
+  "retired_legend": {
+    "role": "DPS, Support",
+    "startDate": "2026-02-25T04:30:00.000Z",
+    "endDate": "2026-03-18T23:59:59.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ],
+      [
+        "2",
+        "Domain MATK Buff Increase (60% &rarr; 80%)"
+      ],
+      [
+        "4",
+        "Domain MATK Buff Increase (80% &rarr; 100%)"
+      ]
+    ],
+    "pullReason": "<b>You probably should (Recommended / Optional)</b>. Despite being fourth Olivier costume, this one is making her more well-rounded, allowing her to take support role even further. Domain is a great thing for self-buff or second team buff, although it would compete with usage of Eleaneer since two Domains cannot be deployed at the same time.",
+    "pros": [
+      "At very least, great self-buff costume",
+      "Decent Chain count",
+      "Allows Olivier to be a decent support (assuming having Faithful Wings costume)"
+    ],
+    "cons": [
+      "High SP to use in general contest as support",
+      "Conficting Domains mean competing in usage with Eleanner off-element",
+      "Somewhat weak AoE",
+      "No full up-time (for GR, for example)"
+    ],
+    "modes": {
+      "gr": "Very Good",
+      "fh": "Very Good / Meta",
+      "ln": "Has potential, but for now Mid",
+      "tos": "Mid / Niche",
+      "mw": "Niche / Bad",
+      "gc": "Good / Meta?",
+      "gen": "Mid / Niche"
+    }
+  },
+  "acting_archbishop": {
+    "role": "Self-buff",
+    "startDate": "2026-03-05T00:00:00.000Z",
+    "endDate": "2026-03-18T23:59:59.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ],
+      [
+        "3",
+        "Crit DMG Buff Duration Increase (4 &rarr; 6 turns)"
+      ],
+      [
+        "4",
+        "Crit DMG Buff Increase (400% &rarr; 500%)"
+      ]
+    ],
+    "pullReason": "<b>Rather no (Skip / Optional)</b>. While this is mostly self-buff costume, it is worthless without rest Michaela Costumes, especially Queen of Signatures one. It has great AoE but her damage ruins that benefit of hers.<br>You could invest if you build Michaela, but that's about it.<br><br> <i>Don't forget to recruit her in <b>pub (Random Appearance)</b> for free 10 tickets during her rerun.",
+    "pros": [
+      "Great Crit DMG self-buff"
+    ],
+    "cons": [
+      "Greatly reduces Michaela survivability due to gimmick",
+      "No DPS capabilities",
+      "Useless at her own"
+    ],
+    "modes": {
+      "gr": "Decent",
+      "fh": "Decent",
+      "ln": "Terrible",
+      "tos": "Very bad / Niche",
+      "mw": "Bad",
+      "gc": "Bad",
+      "gen": "Bad"
+    }
+  },
+  "shattered_dream": {
+    "role": "Sub DPS, Support",
+    "startDate": "2026-03-12T04:30:00.000Z",
+    "endDate": "2026-03-25T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ]
+    ],
+    "pullReason": "<b>Yes (Recommended)</b>. She has decent damage even at low dupes, and debuff extension is unique skill you do not want to miss.<br>She's also expected to have another costume soon, meaning missing current will be terrible for her rotation.<br><br><u>She will be in <b>Story Pack 20 Pub</b>, so you can get 1 copy from there.</u>",
+    "pros": [
+      "Good AoE Coverage",
+      "Decent Damage at low dupes for the cost",
+      "Unique Debuff extension mechanic",
+      "Good synergies with some characters"
+    ],
+    "cons": [],
+    "modes": {
+      "gr": "Good / Meta?",
+      "fh": "Good / Meta?",
+      "ln": "Mid",
+      "tos": "Decent / Mid",
+      "mw": "Decent / Good?",
+      "gc": "Decent / Good?",
+      "gen": "Decent / Good"
+    }
+  },
+  "reclaimed_destiny_sacred_justia": {
+    "role": "DPS",
+    "startDate": "2026-03-19T00:00:00.000Z",
+    "endDate": "2026-04-01T23:59:59.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ],
+      [
+        "4",
+        "-2 CD"
+      ]
+    ],
+    "pullReason": "<b>Yes (Recommended)</b>. She is great DPS with damage scaling based on enemy count, meaning she's good for almost any AoE fight. Her +4 is important breakpoint to be able to use skill each turn.",
+    "pros": [
+      "Great AoE DPS"
+    ],
+    "cons": [
+      "Requires high investment for constant damage",
+      "Bad for single target fights",
+      "Slightly loses priority to other banners"
+    ],
+    "modes": {
+      "gr": "Good",
+      "fh": "Good",
+      "ln": "Bad",
+      "tos": "Mid",
+      "mw": "Bad",
+      "gc": "Decent / Niche",
+      "gen": "Very Good"
+    }
+  },
+  "b-rank_idol_helena": {
+    "role": "Support",
+    "startDate": "2026-03-26T04:30:00.000Z",
+    "endDate": "2026-04-08T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "3",
+        "-1 SP"
+      ]
+    ],
+    "pullReason": "<b>Yes (Must).</b> Although she's not as OP as Liberta, she is still undeniably the core for almost every Magic team.<br><br>Don't forget that she is available in Recommended ★5 Costume Selective Tickets, where taking +1 Helena is recommended from the start.",
+    "pros": [
+      "Meta Support"
+    ],
+    "cons": [],
+    "modes": {
+      "gr": "Meta",
+      "fh": "Meta",
+      "ln": "Good / Meta",
+      "tos": "Good / Meta",
+      "mw": "Good?",
+      "gc": "Decent",
+      "gen": "Meta"
+    }
+  },
+  "night_of_death": {
+    "role": "Chainer, DPS",
+    "startDate": "2026-03-26T04:30:00.000Z",
+    "endDate": "2026-04-08T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ]
+    ],
+    "pullReason": "<b>Yes (Recommended)</b>. Despite being HP-based damage dealer, she got everything you could ask for: low cost, great AoE, high chain count and great damage. Second costume should be released soon as well, filling the missing rotation.<br><br>Keep in mind Mamonir will be accesible in <u><b>Pub (Random pool)</b></u>, so make sure to recruit her for 10 tickets as well as reducing tickets usage on the banner.",
+    "pros": [
+      "Great AoE",
+      "Great Continous Damage",
+      "Great SP Cost",
+      "Great self-buff compensating build specifics"
+    ],
+    "cons": [
+      "Need specific (HP) gear to work",
+      "Has a rotation gap"
+    ],
+    "modes": {
+      "gr": "Very Good / Meta",
+      "fh": "Very Good",
+      "ln": "Very Good / Meta",
+      "tos": "Very Good / Meta",
+      "mw": "Very Good?",
+      "gc": "Very Good?",
+      "gen": "Very Good"
+    }
+  },
+  "bikini_agent": {
+    "role": "DPS",
+    "startDate": "2026-04-02T00:00:00.000Z",
+    "endDate": "2026-04-15T23:59:59.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ]
+    ],
+    "pullReason": "<b>Kind of (Optional/Recommended).</b> This costume is Sylvia's nuke costume and is very important for her rotation due to buff extension. However Sylvia heavily relies on Sword Queen costume, which makes heavy Sylvia investment somewhat questionable.<br>Moreover, newly released Mamonir can take a spotlight soon in terms of main DPS of the team.",
+    "pros": [
+      "Important costume for Sylvia herself"
+    ],
+    "cons": [
+      "Requires high investment for other costumes",
+      "Possible priority shift due to Mamonir"
+    ],
+    "modes": {
+      "gr": "Meta",
+      "fh": "Meta",
+      "ln": "Mid",
+      "tos": "Good",
+      "mw": "—",
+      "gc": "—",
+      "gen": "Decent"
+    }
+  },
+  "kind_ruthlessness": {
+    "role": "Chainer, DPS",
+    "startDate": "2026-04-09T04:30:00.000Z",
+    "endDate": "2026-05-06T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ],
+      [
+        "4",
+        "-2 CD"
+      ]
+    ],
+    "pullReason": "<b>Somewhat (Optional)</b>. Nowadays her main usage is in Last Night and very rarely — Fiend Hunter, but, realistically, she's been outperformed by Wilhelmina as chainer completely. Getting 1 or 2 copies is a good idea unless you're going to be really competitive.",
+    "pros": [
+      "High Chain count"
+    ],
+    "cons": [
+      "Rare usage outside of Last Night"
+    ],
+    "modes": {
+      "gr": "Decent",
+      "fh": "Decent",
+      "ln": "Meta",
+      "tos": "Niche",
+      "mw": "Bad",
+      "gc": "Bad",
+      "gen": "Bad"
+    }
+  },
+  "noble_flame": {
+    "role": "DPS",
+    "startDate": "2026-04-09T04:30:00.000Z",
+    "endDate": "2026-05-06T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ],
+      [
+        "2",
+        "Self-buff increase (60% &rarr; 80% ATK)"
+      ],
+      [
+        "4",
+        "Self-buff increase (80% &rarr; 100% ATK)"
+      ]
+    ],
+    "pullReason": "<b>No (Skip / Collection purposes)</b>. She's just bad. The only use case for her theoretically is in the Golden Colosseum, and even this is with a HUGE question mark.",
+    "pros": [],
+    "cons": [
+      "3 CD for 1-costume character without any future costumes",
+      "VERY fragile buff",
+      "Low damage multiplier"
+    ],
+    "modes": {
+      "gr": "Terrible",
+      "fh": "Terrible",
+      "ln": "Bad / Terrible",
+      "tos": "Bad",
+      "mw": "Terrible",
+      "gc": "Ok-ish???",
+      "gen": "Terrible"
+    }
+  },
+  "fist_of_conviction": {
+    "role": "DPS",
+    "startDate": "2026-04-09T04:30:00.000Z",
+    "endDate": "2026-05-06T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ],
+      [
+        "3",
+        "Augmentation increase (400% &rarr; 650%)"
+      ],
+      [
+        "5",
+        "Augmentation increase (650% &rarr; 900%)"
+      ]
+    ],
+    "pullReason": "<b>No (Skip / Collection purposes)</b>. Basic Attack Augmentation may seem good on paper until you realize it means no AoE coverage and mediocre damage output when casting the skill itself.",
+    "pros": [],
+    "cons": [
+      "No real usage pretty much anywhere"
+    ],
+    "modes": {
+      "gr": "Bad",
+      "fh": "Bad",
+      "ln": "Really bad / Terrible",
+      "tos": "Bad",
+      "mw": "Bad / Terrible",
+      "gc": "Bad / Terrible",
+      "gen": "Bad / Terrible"
+    }
+  },
+  "dancing_snowflake": {
+    "role": "DPS",
+    "startDate": "2026-04-09T04:30:00.000Z",
+    "endDate": "2026-05-06T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ],
+      [
+        "3",
+        "Frostbite Damage increase (10% &rarr; 15%)"
+      ],
+      [
+        "5",
+        "Frostbite Damage increase (15% &rarr; 20%)"
+      ]
+    ],
+    "pullReason": "<b>Rather no (Optional / Skip / Collection purposes)</b>. Despite being \"not that bad\" of a costume, she's outperformed by almost every Water DPS and rarely sees any usage even in 3rd team in Fiend Hunter.",
+    "pros": [
+      "Theoretically high scailing"
+    ],
+    "cons": [
+      "Weak AOE",
+      "Rarely has any usage"
+    ],
+    "modes": {
+      "gr": "Decent / Good",
+      "fh": "Decent / Good",
+      "ln": "Bad",
+      "tos": "Niche / Bad",
+      "mw": "Bad",
+      "gc": "Bad",
+      "gen": "Bad"
+    }
+  },
+  "shadowed_dream": {
+    "role": "Amplifier",
+    "startDate": "2026-04-16T00:00:00.000Z",
+    "endDate": "2026-04-29T23:59:59.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ],
+      [
+        "2",
+        "Vulnerability increase"
+      ],
+      [
+        "4",
+        "Vulnerability increase"
+      ]
+    ],
+    "pullReason": "<b>Yes (Recommended)</b>. She's great amplifier, being versatile with all elements, and even better for Darkness property. Her AoE is not the greatest, but her tiles align with her second costume, Little Pumpkin Girl, so it's not as terrible.",
+    "pros": [
+      "2 types of vulnerability",
+      "Decent damage as for non-main DPS costume",
+      "Decent-ish AOE"
+    ],
+    "cons": [],
+    "modes": {
+      "gr": "Meta",
+      "fh": "Meta",
+      "ln": "Bad",
+      "tos": "Niche",
+      "mw": "—",
+      "gc": "—",
+      "gen": "Decent"
+    }
+  },
+  "miracle_rose": {
+    "role": "Chainer, Sub DPS",
+    "startDate": "2026-04-23T04:30:00.000Z",
+    "endDate": "2026-05-06T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ],
+      [
+        "3",
+        "Crit Rate increase (40% &rarr; 70%)"
+      ]
+    ],
+    "pullReason": "<b>Yes (Recommended).</b> This is not a buffer costume, but, nonetheless, it is quite good 1SP chainer that fills Liberta downtime in rotation. Additionally, she will provide decent cheap damage.<br>Her Crit Rate self-buff makes her an excellent choice in PvP.",
+    "pros": [
+      "Cheap cost",
+      "Decent chainer",
+      "Decent AoE",
+      "HP scaling",
+      "Fills Liberta downtime"
+    ],
+    "cons": [
+      "Not a buffer (compared to rest her costumes)"
+    ],
+    "modes": {
+      "gr": "Decent",
+      "fh": "Decent",
+      "ln": "Mid / Decent",
+      "tos": "Decent",
+      "mw": "Good / Meta",
+      "gc": "Good / Meta",
+      "gen": "Decent"
+    }
+  },
+  "maid_bikini": {
+    "role": "Support, DPS",
+    "startDate": "2026-04-31T00:00:00.000Z",
+    "endDate": "2026-05-13T23:59:59.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ],
+      [
+        "3",
+        "DoT Vulnerability increase (150% &rarr; 200%)"
+      ],
+      [
+        "5",
+        "DoT Vulnerability increase (200% &rarr; 250%)"
+      ]
+    ],
+    "pullReason": "<b>Yes (Recommended)</b>. This is very important costume for DoT teams since it provide enormous buff value. Although that means you need to have good DoT unit such as Liatris to play with this costume.",
+    "pros": [
+      "DoT Support",
+      "Strongest Rubia Costume"
+    ],
+    "cons": [
+      "Need DoT units investment to utilize"
+    ],
+    "modes": {
+      "gr": "Good",
+      "fh": "Good",
+      "ln": "Bad",
+      "tos": "Niche / Bad",
+      "mw": "Bad?",
+      "gc": "Bad?",
+      "gen": "Niche"
+    }
+  },
+  "miracle_violet": {
+    "role": "Chainer, DPS",
+    "startDate": "2026-05-07T04:30:00.000Z",
+    "endDate": "2026-05-20T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ]
+    ],
+    "pullReason": "<b>Rather yes than no (Recommended / Optional)</b>. It is the costume that pairs very well with existing Darkness Magic team, however her output damage heavily depends on the very same team she's helping. Necessary for Palette rotation overall and offers fair amount of hits / chains.",
+    "pros": [
+      [
+        "Covers missing Palette rotation"
+      ],
+      [
+        "Good Damage if condition is triggered"
+      ],
+      [
+        "Decent Chain / Hit count"
+      ],
+      [
+        "Strenghtening own position as Sonya support"
+      ]
+    ],
+    "cons": [
+      [
+        "Tough condition to have impact outside of speficic teams"
+      ]
+    ],
+    "modes": {
+      "gr": "Good / Niche Meta",
+      "fh": "Good / Niche Meta",
+      "ln": "Decent",
+      "tos": "Mid",
+      "mw": "Niche / Bad",
+      "gc": "Mid?",
+      "gen": "Mid / Niche"
+    }
+  },
+  "dj": {
+    "charName": "Venaka",
+    "dmgAtt": "wim",
+    "costumeName": "DJ",
+    "role": "DPS, Shredder",
+    "startDate": "2026-05-14T00:00:00.000Z",
+    "endDate": "2026-05-27T23:59:59.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ]
+    ],
+    "pullReason": "<b>Not really (Optional / Skip)</b>. Venaka alone is decent DPS, but she's completely blasted out of the competition by Nebris and Tyr, who are the powerhouses for Wind damage overall.<br><br>That being said, she's fair PvP and PvE costume, offering MRES reduction and decent damage. New Burst mechanic will allow her to have 1CD, which may or may not be impactful further on.",
+    "pros": [
+      [
+        "Decent damage"
+      ],
+      [
+        "MRES Shredder"
+      ]
+    ],
+    "cons": [
+      [
+        "Outdamaged by Physical counterparts such as Nebris / Tyr"
+      ]
+    ],
+    "modes": {
+      "gr": "Good",
+      "fh": "Good",
+      "ln": "Mid",
+      "tos": "Decent / Good",
+      "mw": "Very Good",
+      "gc": "Mid / Niche",
+      "gen": "Good"
+    }
+  },
+  "miracle_marine": {
+    "role": "Amplifier",
+    "startDate": "2026-05-21T04:30:00.000Z",
+    "endDate": "2026-06-03T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ]
+    ],
+    "pullReason": "<b>See notes further</b>. This Costume seems to be quite niche, however, she has tremendous raw values.<br><br>If you invested in Mamonir beforehand, she is most likely <b>Recommended</b>.<br>If you did not invest in Mamonir, she is more like <b>Optional</b>.<br><br>Mamonir was already used as Support even outside Water seasons, and this Costume will probably force it down even more. Therefore +1 can be a compromise to maintain her viability without heavily investing before Anniversary.",
+    "pros": [
+      "Tremendous Vulnerability amount",
+      "Filling the gap for rotation",
+      "Amplifier"
+    ],
+    "cons": [
+      "Unconvenient use tile-wise"
+    ],
+    "modes": {
+      "gr": "Meta",
+      "fh": "Meta?",
+      "ln": "Not playable",
+      "tos": "Bad",
+      "mw": "Bad?",
+      "gc": "Bad",
+      "gen": "Bad?"
+    }
+  },
+  "beach_vacation_morphea": {
+    "role": "DPS",
+    "startDate": "2026-05-28T00:00:00.000Z",
+    "endDate": "2026-06-10T23:59:59.000Z",
+    "breakpoints": [
+      [
+        "0",
+        "As baseline for futher upgrades"
+      ]
+    ],
+    "pullReason": "<b>Ideally, yes, but... (Recommended / Optional)</b>. Getting at least +0 is a great, since this the best Water Mage DPS at the moment.<br>However, her output heavily scales with copies, and overcommitting to the banner can bite you during the Anniversary.",
+    "pros": [
+      "Best Water Magic DPS",
+      "Versatile Costume"
+    ],
+    "cons": [
+      "Heavily copies-dependent for damage scale"
+    ],
+    "modes": {
+      "gr": "Meta",
+      "fh": "Meta",
+      "ln": "Not playable",
+      "tos": "Good (Staller + DPS)",
+      "mw": "Mid / Bad",
+      "gc": "Not used",
+      "gen": "Mid / Niche"
+    }
+  },
+  "ocean_vanguard": {
+    "role": "Selfbuffer / Chainer",
+    "startDate": "2026-06-04T04:30:00.000Z",
+    "endDate": "2026-07-01T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ],
+      [
+        "2",
+        "higher ATK Gain per Hit"
+      ],
+      [
+        "4",
+        "higher Chain DMG Gain"
+      ]
+    ],
+    "pullReason": "<b>Meta</b>. She will help the other costumes of her to do just more DMG and can stack a few chains on off turns on longer fights. The Buff has a full uptime which is always good!",
+    "pros": [
+      "Selfbuff-Costume",
+      "Chainer for other DPSes"
+    ],
+    "cons": [
+      "Needs other Costumes to get benfit from selfbuffs"
+    ],
+    "modes": {
+      "gr": "Meta",
+      "fh": "Meta",
+      "ln": "Decent",
+      "tos": "Good",
+      "mw": "Bad",
+      "gc": "Bad",
+      "gen": "Mid"
+    }
+  },
+  "deadeye": {
+    "role": "Chainer",
+    "startDate": "2026-06-04T04:30:00.000Z",
+    "endDate": "2026-06-17T23:59:59.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ]
+    ],
+    "pullReason": "<b>Maybe</b>. She is mostly a PVP Unit for now with just one costume. High Chain are good in Last Night. Otherwise not really worth the pulls for now.",
+    "pros": [
+      "High Chains",
+      "First Costumes that can ignore Evades"
+    ],
+    "cons": [
+      "Niche Pattern",
+      "Only 1 Costume atm"
+    ],
+    "modes": {
+      "gr": "Niche",
+      "fh": "Niche",
+      "ln": "Good",
+      "tos": "Mid",
+      "mw": "Good?",
+      "gc": "Good?",
+      "gen": "Bad"
+    }
+  },
+  "beachside_justice": {
+    "role": "Selfbuff / DPS",
+    "startDate": "2026-06-04T04:30:00.000Z",
+    "endDate": "2026-07-01T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ]
+    ],
+    "pullReason": "<b>No</b>. Michaela can buff herself for strong follow up turns with her 'Queen of Signatures'-Costume. Big Downside is her HP-Reduction from useing this Skill. Pattern also not the greatest.",
+    "pros": [
+      "Increase of MATK"
+    ],
+    "cons": [
+      "Deal 80% of Current HP as DMG to Michaela",
+      "Niche Pattern",
+      "Meh DMG"
+    ],
+    "modes": {
+      "gr": "Niche",
+      "fh": "Niche",
+      "ln": "Bad",
+      "tos": "Bad",
+      "mw": "Niche",
+      "gc": "Bad",
+      "gen": "Bad"
+    }
+  },
+  "prophetic_dream": {
+    "role": "DPS",
+    "startDate": "2026-06-04T04:30:00.000Z",
+    "endDate": "2026-07-01T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ]
+    ],
+    "pullReason": "<b>Recommanded</b>. Darian is a great DPS... if she can hit enough tiles. She mostly suffers from the weak Skillpattern. Darian is a stable atm in Last Night and every FH / GR her Attack hits a lot of tiles otherwise she is outclassed by other water dpses.",
+    "pros": [
+      "High DMG on Main Target"
+    ],
+    "cons": [
+      "Skip X-Pattern"
+    ],
+    "modes": {
+      "gr": "Niche",
+      "fh": "Niche",
+      "ln": "Meta",
+      "tos": "Mid",
+      "mw": "Bad",
+      "gc": "Niche",
+      "gen": "Niche"
+    }
+  },
+  "pool_party_justia": {
+    "role": "Evader / Selfbuffer",
+    "startDate": "2026-06-04T04:30:00.000Z",
+    "endDate": "2026-07-01T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "3",
+        "-1 SP"
+      ]
+    ],
+    "pullReason": "<b>Optional</b>. Justia really suffers from beeing an old Unit. Her main focus is fixed DMG which this costume helps via selfbuff. Problem is just Fixed DMG is really bad outside of PVP. And even in PVP Olivier pretty much replaced her there with a preemptive Evade.",
+    "pros": [
+      "Selfbuff",
+      "100% Evades"
+    ],
+    "cons": [
+      "Fixed Dmg is Justia Main DMG Source"
+    ],
+    "modes": {
+      "gr": "Unusable",
+      "fh": "Unusable",
+      "ln": "Unusable",
+      "tos": "Mid",
+      "mw": "Good",
+      "gc": "Good",
+      "gen": "Bad"
+    }
+  },
+  "pool_party_scheherazade": {
+    "role": "Buff Remover / 'Chainer'",
+    "startDate": "2026-06-04T04:30:00.000Z",
+    "endDate": "2026-07-01T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "3",
+        "-1 SP"
+      ]
+    ],
+    "pullReason": "<b>Optional</b>. Schera is PVP stable and those that enjoy PVP want her. Otherwise for Newbies / Casuals just get a Copy if you want for the Wallpaper / Gacha Skin and then move on.",
+    "pros": [
+      "Cheap SP Costs",
+      "Remove from Buff"
+    ],
+    "cons": [
+      "Bad Pattern",
+      "Low DMG for PVE use"
+    ],
+    "modes": {
+      "gr": "Unusable",
+      "fh": "Unusable",
+      "ln": "Bad",
+      "tos": "Bad",
+      "mw": "Meta",
+      "gc": "Mid",
+      "gen": "Bad"
+    }
+  },
+  "beachside_angel": {
+    "role": "Support / Buffer",
+    "startDate": "2026-07-02T04:30:00.000Z",
+    "endDate": "2026-07-30T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ],
+      [
+        "3",
+        "Higher Duration (4 &rarr; 8 Turns)"
+      ]
+    ],
+    "pullReason": "<b>Absolutely (Must)</b>. Teresse is a must have support thanks to her versatility for both Magic and Physical teams. Additionally, her buff is not diluted by most buffs (except another Augmentation and Vulnerability), which makes her multiply damage outputeffectively.<br><br>The only downside is locking your team onto low chains setup, which is slight problem for Guild Raid and sometimes Fiend Hunter, but otherwise, she carries insane value as a Support.",
+    "pros": [
+      "Meta Support",
+      "Strong Buff Value in unique damage bracket",
+      "Universal for both Magic and Physical Teams"
+    ],
+    "cons": [
+      "Requires low chains",
+      "Limited Costume"
+    ],
+    "modes": {
+      "gr": "Rarely playable",
+      "fh": "Meta",
+      "ln": "Not playable",
+      "tos": "Team-dependent",
+      "mw": "Not played",
+      "gc": "Meta",
+      "gen": "Meta"
+    }
+  },
+  "combat_medic": {
+    "role": "Self-buffer, DPS",
+    "startDate": "2026-06-18T04:30:00.000Z",
+    "endDate": "2026-07-01T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ],
+      [
+        "3",
+        "Increased Crit DMG Buff (100 &rarr; 150%)"
+      ]
+    ],
+    "pullReason": "<b>Depends (Optional / Recommended)</b>. To put it simply, if you have your Granhildr already built, she is important to get at least +3 for the maximum self-buff value for Boo Ghost Costume. Otherwise, you could compromise at +1, since, without strong Comeback Idol and Boo Ghost dupes, her damage will not be great.<br><br>Buff requirenment is very easy to obtain, so she will work as Beach Sylvia in that regard most of the time.",
+    "pros": [
+      "Self-buffer",
+      "Makes rotation a bit more clear",
+      "Cheap damage"
+    ],
+    "cons": [
+      "Useless without invested other Granhildr Costumes (Comeback Idol + Boo Ghost)",
+      "Not the best CDMG Buff value (200% only)"
+    ],
+    "modes": {
+      "gr": "Good",
+      "fh": "Good",
+      "ln": "Not usable",
+      "tos": "Not usable / Very Niche",
+      "mw": "Not usable / Very Niche",
+      "gc": "Not usable / Very Niche",
+      "gen": "Not usable"
+    }
+  }
+}
