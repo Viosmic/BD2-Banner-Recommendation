@@ -45,7 +45,7 @@
     "ur": "Yes ( Must ).",
     "sr": "Yes ( Recommanded ).",
     "r": "Situational.",
-    "n": "No."
+    "n": "No (Skip)."
   },
   "costumeRoles": [
     "DPS",
