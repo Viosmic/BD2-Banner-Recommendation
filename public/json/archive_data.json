@@ -13,7 +13,8 @@
         "Big Damage Increase<br>[1450% &xrarr; 1690%, 8 SP consumed]"
       ]
     ],
-    "pullReason": "<b>Depends.</b> She is good if you have Starlight Guardian Tyr, otherwise her usage is very limited. Consider pulling low dupe count in order to save for onsen banners."
+    "pullPriority": "r",
+    "pullReason": "She is good if you have Starlight Guardian Tyr, otherwise her usage is very limited. Consider pulling low dupe count in order to save for onsen banners."
   },
   "bittersweet_bunny": {
     "role": "DPS",
@@ -29,7 +30,8 @@
         "-2 CD"
       ]
     ],
-    "pullReason": "<b>Yes</b>, although her priority is lower than, for example, Celia and Loen. Her conditional skill greatly limits her usage."
+    "pullPriority": "sr",
+    "pullReason": "Although her priority is lower than, for example, Celia and Loen. Her conditional skill greatly limits her usage."
   },
   "celebrity_bunny": {
     "role": "DPS",
@@ -41,7 +43,8 @@
         "-1 SP"
       ]
     ],
-    "pullReason": "<b>Yes</b>. She is undeniably one of the strongest DPS for a general content, has good scaling versus a lot of enemies and is limited."
+    "pullPriority": "sr",
+    "pullReason": "She is undeniably one of the strongest DPS for a general content, has good scaling versus a lot of enemies and is limited."
   },
   "masquerade_bunny": {
     "role": "Chainer",
@@ -57,7 +60,8 @@
         "Buff Duration +2 turns"
       ]
     ],
-    "pullReason": "<u><b>Absolutely.</b></u> She is important <u><b>limited</b></u> support-chainer, used in almost every Fiend Hunter and Guild Raid season. Essential for her rest costumes to perform well."
+    "pullPriority": "ur",
+    "pullReason": "She is important <u><b>limited</b></u> support-chainer, used in almost every Fiend Hunter and Guild Raid season. Essential for her rest costumes to perform well."
   },
   "overheat": {
     "role": "DPS",
@@ -69,7 +73,8 @@
         "-1 SP"
       ]
     ],
-    "pullReason": "<b>Optional</b>. She was buffed recently but that does not make her more important compared to Tyr or other banners."
+    "pullPriority": "r",
+    "pullReason": "She was buffed recently but that does not make her more important compared to Tyr or other banners."
   },
   "robin_hood": {
     "role": "Chainer, Amplifier",
@@ -81,7 +86,8 @@
         "-1 SP"
       ]
     ],
-    "pullReason": "<b>Yes (Must)</b>. She is an important support for Fiend Hunter / Guild Raid. Her +3 dupe gives ability to use the costume for free (assuming Potential Liberation done), which is important in a lot of cases.",
+    "pullPriority": "ur",
+    "pullReason": "She is an important support for Fiend Hunter / Guild Raid. Her +3 dupe gives ability to use the costume for free (assuming Potential Liberation done), which is important in a lot of cases.",
     "pros": [
       "Single Target Chainer",
       "Good Amplifier (Universal Vulnerability)",
@@ -108,7 +114,8 @@
         "-1 SP"
       ]
     ],
-    "pullReason": "<b>No</b>, unless you are at the end game. He is niche DoT DPS who scales based on enemy Magic ATK, making him very niche."
+    "pullPriority": "n",
+    "pullReason": "Unless you are at the end game. He is niche DoT DPS who scales based on enemy Magic ATK, making him very niche."
   },
   "queen_of_gluttis": {
     "role": "Buffer",
@@ -120,7 +127,8 @@
         "-1 SP"
       ]
     ],
-    "pullReason": "<b>Absolutely</b>. She's an important Magic type buffer which is similar to Homunculus Lathel. She is new addition to general magic teams and thus should be pulled as much as possible.",
+    "pullPriority": "ur",
+    "pullReason": "She is an important Magic type buffer which is similar to Homunculus Lathel. She is new addition to general magic teams and thus should be pulled as much as possible.",
     "pros": [
       "Buffer / Support",
       "SP Battery",
@@ -147,7 +155,8 @@
         "-1 SP"
       ]
     ],
-    "pullReason": "<b>Not quite</b>, unless you have a lot of spare pulls. This costume has great damage capabilities for a nuker like Ventana, but high breakpoint (+3) and other banners priorities shift focus from this one.",
+    "pullPriority": "r",
+    "pullReason": "Unless you have a lot of spare pulls. This costume has great damage capabilities for a nuker like Ventana, but high breakpoint (+3) and other banners priorities shift focus from this one.",
     "pros": [
       "Good Physical Nuker",
       "Highest multiplier amongst Ventana's costumes",
@@ -172,27 +181,26 @@
     "startDate": "2026-01-15T04:30:00.000Z",
     "endDate": "2026-02-11T23:59:59.000Z",
     "breakpoints": [
-      [
-        "1",
-        "-1 SP"
-      ]
+        [ "1", "-1 SP" ]
     ],
-    "pullReason": "<b>Yes</b>. This is rotational costume for Granadair, which is more niche compared to Queen of Gluttis, but still good. NEED KIT INFO BRRRR",
+    "pullPriority": "ur",
+    "pullReason": "This costume is quite hard to utilize at its maximum, but sheer damage boost even without conditional increase worth a lot to not skip her. She offers same value of buff as Onsen Manager Liberta, without chain requirenment, making her very powerful magic buffer in almost every mode.",
     "pros": [
       "Buffer / Support",
-      "Unique support mechanics"
+      "Unique support mechanics",
+      "First full debuff cleanse costume"
     ],
     "cons": [
-      "More niche compared to another Granadair costume"
+      "Hard to fully utilize"
     ],
     "modes": {
-      "gr": "Good / Niche",
-      "fh": "Good / Niche",
-      "ln": "Bad",
+      "gr": "Good",
+      "fh": "Good",
+      "ln": "Meta",
       "tos": "Mid",
-      "mw": "?",
-      "gc": "?",
-      "gen": "Niche"
+      "mw": "Mid / Niche, need testing ",
+      "gc": "Good?",
+      "gen": "Good / Niche"
     }
   },
   "onsen_manager": {
@@ -205,7 +213,8 @@
         "-1 SP"
       ]
     ],
-    "pullReason": "<b>Absolutely (MUST)</b>. This costume is rotational costume to Dark Saintess Liberta, providing bonus for high-chain teams. Necessary for Guild Raid, Fiend Hunter, Last Night.",
+    "pullPriority": "ur",
+    "pullReason": "This costume is rotational costume to Dark Saintess Liberta, providing bonus for high-chain teams. Necessary for Guild Raid, Fiend Hunter, Last Night.",
     "pros": [
       "Buffer",
       "Essential for high-chain teams"
@@ -237,7 +246,8 @@
         "Huge Light Vulnerability increase (100 &rarr; 200%)"
       ]
     ],
-    "pullReason": "<b>Not quite (Optional / Skip)</b>. This costume is the weakest amongst all 3 Ventana costumes, offering self-buff. Similar to Snow White, requires somewhat high dupe for last breakpoint. Loses in priority to rest banners. Mostly used as rotation for Fiend Hunter and Guild Raid.",
+    "pullPriority": "r",
+    "pullReason": "This costume is the weakest amongst all 3 Ventana costumes, offering self-buff. Similar to Snow White, requires somewhat high dupe for last breakpoint. Loses in priority to rest banners. Mostly used as rotation for Fiend Hunter and Guild Raid.",
     "pros": [
       "Rotational costume for Ventana",
       "Damage self-amplfier"
@@ -267,7 +277,8 @@
         "-1 SP"
       ]
     ],
-    "pullReason": "<b>Not really. (Optional / Skip)</b>. He is somewhat niche support, providing SP regen and silencing enemies. Unfortunately for him, Silence works on limited pool of enemies, and his SP battery has somewhat long cooldown.<br><br><i>Make sure to recruit him from <b>pub</b> for free 10 Draw Tickets.</i>",
+    "pullPriority": "n",
+    "pullReason": "He is somewhat niche support, providing SP regen and silencing enemies. Unfortunately for him, Silence works on limited pool of enemies, and his SP battery has somewhat long cooldown.<br><br><i>Make sure to recruit him from <b>pub</b> for free 10 Draw Tickets.</i>",
     "pros": [
       "Support"
     ],
@@ -301,7 +312,8 @@
         "Conditional skill DMG increase (90% &rarr; 110%)"
       ]
     ],
-    "pullReason": "<b>Depends (Optional / Skip)</b>. This costume is pure DPS with slight synergy with Young Lady Costume, but requires way more than that to be good.",
+    "pullPriority": "r",
+    "pullReason": "This costume is pure DPS with slight synergy with Young Lady Costume, but requires way more than that to be good.",
     "pros": [
       "Fills / Finishes Blade rotation",
       "Decent DMG output in proper teams",
@@ -332,7 +344,8 @@
         "-1 SP"
       ]
     ],
-    "pullReason": "<b>No (Skip)</b>. This costume, and Alec overall, is niche PvP unit, meaning you should not go for him at all.",
+    "pullPriority": "n",
+    "pullReason": "This costume, and Alec overall, is niche PvP unit, meaning you should not go for him at all.",
     "pros": [
       "Decent high Fixed Damage"
     ],
@@ -361,7 +374,8 @@
         "Increased hits amount for counter (8 &rarr; 10)"
       ]
     ],
-    "pullReason": "<b>Depends (Optional)</b>. This is main Blade DPS costume and it has high ceiling, but is niche in PvE due to counter mechanic. This banner additionally loses priority due to buffers still being available during first week.<br><br><i>Make sure to recruit her from <b>pub</b> to get 10 tickets. </i>",
+    "pullPriority": "r",
+    "pullReason": "This is main Blade DPS costume and it has high ceiling, but is niche in PvE due to counter mechanic. This banner additionally loses priority due to buffers still being available during first week.<br><br><i>Make sure to recruit her from <b>pub</b> to get 10 tickets. </i>",
     "pros": [
       "Main Blade DPS Costume"
     ],
@@ -388,7 +402,8 @@
         "As baseline for futher upgrades"
       ]
     ],
-    "pullReason": "<b>You should (Recommended)</b>. While this costume has own issues and just dilutes the Property Damage Increase, it still is a buffer and you basically lose nothing when using it.<br>+0 already gives 100% Property Damage buff (on max stacks) which is good enough if you're new player, higher dupes are important for mostly rankers and late-game players.",
+    "pullPriority": "sr",
+    "pullReason": "While this costume has own issues and just dilutes the Property Damage Increase, it still is a buffer and you basically lose nothing when using it.<br>+0 already gives 100% Property Damage buff (on max stacks) which is good enough if you're new player, higher dupes are important for mostly rankers and late-game players.",
     "pros": [
       "Decent buff with full stacks",
       "Preemptive costume",
@@ -424,7 +439,8 @@
         "Bigger increase of both base & conditional damage (475% &rarr; 550%; 725% &rarr; 800%) "
       ]
     ],
-    "pullReason": "<b>Somewhat depends (Optional)</b>. This costume is a great DPS, especially in Fiend Hunter / Guild Raid, but after the DoT cap stacks increase she's moved towards the usage on the last turn only, making her more ranking costume.",
+    "pullPriority": "r",
+    "pullReason": "This costume is a great DPS, especially in Fiend Hunter / Guild Raid, but after the DoT cap stacks increase she's moved towards the usage on the last turn only, making her more ranking costume.",
     "pros": [
       "3x3 AoE",
       "Good damage output"
@@ -460,7 +476,8 @@
         "Domain MATK Buff Increase (80% &rarr; 100%)"
       ]
     ],
-    "pullReason": "<b>You probably should (Recommended / Optional)</b>. Despite being fourth Olivier costume, this one is making her more well-rounded, allowing her to take support role even further. Domain is a great thing for self-buff or second team buff, although it would compete with usage of Eleaneer since two Domains cannot be deployed at the same time.",
+    "pullPriority": "sr",
+    "pullReason": "Despite being fourth Olivier costume, this one is making her more well-rounded, allowing her to take support role even further. Domain is a great thing for self-buff or second team buff, although it would compete with usage of Eleaneer since two Domains cannot be deployed at the same time.",
     "pros": [
       "At very least, great self-buff costume",
       "Decent Chain count",
@@ -500,7 +517,8 @@
         "Crit DMG Buff Increase (400% &rarr; 500%)"
       ]
     ],
-    "pullReason": "<b>Rather no (Skip / Optional)</b>. While this is mostly self-buff costume, it is worthless without rest Michaela Costumes, especially Queen of Signatures one. It has great AoE but her damage ruins that benefit of hers.<br>You could invest if you build Michaela, but that's about it.<br><br> <i>Don't forget to recruit her in <b>pub (Random Appearance)</b> for free 10 tickets during her rerun.",
+    "pullPriority": "r",
+    "pullReason": "While this is mostly self-buff costume, it is worthless without rest Michaela Costumes, especially Queen of Signatures one. It has great AoE but her damage ruins that benefit of hers.<br>You could invest if you build Michaela, but that's about it.<br><br> <i>Don't forget to recruit her in <b>pub (Random Appearance)</b> for free 10 tickets during her rerun.",
     "pros": [
       "Great Crit DMG self-buff"
     ],
@@ -529,7 +547,8 @@
         "-1 SP"
       ]
     ],
-    "pullReason": "<b>Yes (Recommended)</b>. She has decent damage even at low dupes, and debuff extension is unique skill you do not want to miss.<br>She's also expected to have another costume soon, meaning missing current will be terrible for her rotation.<br><br><u>She will be in <b>Story Pack 20 Pub</b>, so you can get 1 copy from there.</u>",
+    "pullPriority": "sr",
+    "pullReason": "She has decent damage even at low dupes, and debuff extension is unique skill you do not want to miss.<br>She's also expected to have another costume soon, meaning missing current will be terrible for her rotation.<br><br><u>She will be in <b>Story Pack 20 Pub</b>, so you can get 1 copy from there.</u>",
     "pros": [
       "Good AoE Coverage",
       "Decent Damage at low dupes for the cost",
@@ -561,7 +580,8 @@
         "-2 CD"
       ]
     ],
-    "pullReason": "<b>Yes (Recommended)</b>. She is great DPS with damage scaling based on enemy count, meaning she's good for almost any AoE fight. Her +4 is important breakpoint to be able to use skill each turn.",
+    "pullPriority": "r",
+    "pullReason": "She is great DPS with damage scaling based on enemy count, meaning she's good for almost any AoE fight. Her +4 is important breakpoint to be able to use skill each turn.",
     "pros": [
       "Great AoE DPS"
     ],
@@ -590,7 +610,8 @@
         "-1 SP"
       ]
     ],
-    "pullReason": "<b>Yes (Must).</b> Although she's not as OP as Liberta, she is still undeniably the core for almost every Magic team.<br><br>Don't forget that she is available in Recommended ★5 Costume Selective Tickets, where taking +1 Helena is recommended from the start.",
+    "pullPriority": "ur",
+    "pullReason": "Although she's not as OP as Liberta, she is still undeniably the core for almost every Magic team.<br><br>Don't forget that she is available in Recommended ★5 Costume Selective Tickets, where taking +1 Helena is recommended from the start.",
     "pros": [
       "Meta Support"
     ],
@@ -615,7 +636,8 @@
         "-1 SP"
       ]
     ],
-    "pullReason": "<b>Yes (Recommended)</b>. Despite being HP-based damage dealer, she got everything you could ask for: low cost, great AoE, high chain count and great damage. Second costume should be released soon as well, filling the missing rotation.<br><br>Keep in mind Mamonir will be accesible in <u><b>Pub (Random pool)</b></u>, so make sure to recruit her for 10 tickets as well as reducing tickets usage on the banner.",
+    "pullPriority": "sr",
+    "pullReason": "Despite being HP-based damage dealer, she got everything you could ask for: low cost, great AoE, high chain count and great damage. Second costume should be released soon as well, filling the missing rotation.<br><br>Keep in mind Mamonir will be accesible in <u><b>Pub (Random pool)</b></u>, so make sure to recruit her for 10 tickets as well as reducing tickets usage on the banner.",
     "pros": [
       "Great AoE",
       "Great Continous Damage",
@@ -646,7 +668,8 @@
         "-1 SP"
       ]
     ],
-    "pullReason": "<b>Kind of (Optional/Recommended).</b> This costume is Sylvia's nuke costume and is very important for her rotation due to buff extension. However Sylvia heavily relies on Sword Queen costume, which makes heavy Sylvia investment somewhat questionable.<br>Moreover, newly released Mamonir can take a spotlight soon in terms of main DPS of the team.",
+    "pullPriority": "r",
+    "pullReason": "This costume is Sylvia's nuke costume and is very important for her rotation due to buff extension. However Sylvia heavily relies on Sword Queen costume, which makes heavy Sylvia investment somewhat questionable.<br>Moreover, newly released Mamonir can take a spotlight soon in terms of main DPS of the team.",
     "pros": [
       "Important costume for Sylvia herself"
     ],
@@ -678,7 +701,8 @@
         "-2 CD"
       ]
     ],
-    "pullReason": "<b>Somewhat (Optional)</b>. Nowadays her main usage is in Last Night and very rarely — Fiend Hunter, but, realistically, she's been outperformed by Wilhelmina as chainer completely. Getting 1 or 2 copies is a good idea unless you're going to be really competitive.",
+    "pullPriority": "r",
+    "pullReason": "Nowadays her main usage is in Last Night and very rarely — Fiend Hunter, but, realistically, she's been outperformed by Wilhelmina as chainer completely. Getting 1 or 2 copies is a good idea unless you're going to be really competitive.",
     "pros": [
       "High Chain count"
     ],
@@ -713,7 +737,8 @@
         "Self-buff increase (80% &rarr; 100% ATK)"
       ]
     ],
-    "pullReason": "<b>No (Skip / Collection purposes)</b>. She's just bad. The only use case for her theoretically is in the Golden Colosseum, and even this is with a HUGE question mark.",
+    "pullPriority": "n",
+    "pullReason": "She's just bad. The only use case for her theoretically is in the Golden Colosseum, and even this is with a HUGE question mark.",
     "pros": [],
     "cons": [
       "3 CD for 1-costume character without any future costumes",
@@ -748,7 +773,8 @@
         "Augmentation increase (650% &rarr; 900%)"
       ]
     ],
-    "pullReason": "<b>No (Skip / Collection purposes)</b>. Basic Attack Augmentation may seem good on paper until you realize it means no AoE coverage and mediocre damage output when casting the skill itself.",
+    "pullPriority": "n",
+    "pullReason": "Basic Attack Augmentation may seem good on paper until you realize it means no AoE coverage and mediocre damage output when casting the skill itself.",
     "pros": [],
     "cons": [
       "No real usage pretty much anywhere"
@@ -781,7 +807,8 @@
         "Frostbite Damage increase (15% &rarr; 20%)"
       ]
     ],
-    "pullReason": "<b>Rather no (Optional / Skip / Collection purposes)</b>. Despite being \"not that bad\" of a costume, she's outperformed by almost every Water DPS and rarely sees any usage even in 3rd team in Fiend Hunter.",
+    "pullPriority": "r",
+    "pullReason": "Despite being \"not that bad\" of a costume, she's outperformed by almost every Water DPS and rarely sees any usage even in 3rd team in Fiend Hunter.",
     "pros": [
       "Theoretically high scailing"
     ],
@@ -817,7 +844,8 @@
         "Vulnerability increase"
       ]
     ],
-    "pullReason": "<b>Yes (Recommended)</b>. She's great amplifier, being versatile with all elements, and even better for Darkness property. Her AoE is not the greatest, but her tiles align with her second costume, Little Pumpkin Girl, so it's not as terrible.",
+    "pullPriority": "sr",
+    "pullReason": "She's great amplifier, being versatile with all elements, and even better for Darkness property. Her AoE is not the greatest, but her tiles align with her second costume, Little Pumpkin Girl, so it's not as terrible.",
     "pros": [
       "2 types of vulnerability",
       "Decent damage as for non-main DPS costume",
@@ -848,7 +876,8 @@
         "Crit Rate increase (40% &rarr; 70%)"
       ]
     ],
-    "pullReason": "<b>Yes (Recommended).</b> This is not a buffer costume, but, nonetheless, it is quite good 1SP chainer that fills Liberta downtime in rotation. Additionally, she will provide decent cheap damage.<br>Her Crit Rate self-buff makes her an excellent choice in PvP.",
+    "pullPriority": "sr",
+    "pullReason": "This is not a buffer costume, but, nonetheless, it is quite good 1SP chainer that fills Liberta downtime in rotation. Additionally, she will provide decent cheap damage.<br>Her Crit Rate self-buff makes her an excellent choice in PvP.",
     "pros": [
       "Cheap cost",
       "Decent chainer",
@@ -887,7 +916,8 @@
         "DoT Vulnerability increase (200% &rarr; 250%)"
       ]
     ],
-    "pullReason": "<b>Yes (Recommended)</b>. This is very important costume for DoT teams since it provide enormous buff value. Although that means you need to have good DoT unit such as Liatris to play with this costume.",
+    "pullPriority": "sr",
+    "pullReason": "This is very important costume for DoT teams since it provide enormous buff value. Although that means you need to have good DoT unit such as Liatris to play with this costume.",
     "pros": [
       "DoT Support",
       "Strongest Rubia Costume"
@@ -915,7 +945,8 @@
         "-1 SP"
       ]
     ],
-    "pullReason": "<b>Rather yes than no (Recommended / Optional)</b>. It is the costume that pairs very well with existing Darkness Magic team, however her output damage heavily depends on the very same team she's helping. Necessary for Palette rotation overall and offers fair amount of hits / chains.",
+    "pullPriority": "r",
+    "pullReason": "It is the costume that pairs very well with existing Darkness Magic team, however her output damage heavily depends on the very same team she's helping. Necessary for Palette rotation overall and offers fair amount of hits / chains.",
     "pros": [
       [
         "Covers missing Palette rotation"
@@ -958,7 +989,8 @@
         "-1 SP"
       ]
     ],
-    "pullReason": "<b>Not really (Optional / Skip)</b>. Venaka alone is decent DPS, but she's completely blasted out of the competition by Nebris and Tyr, who are the powerhouses for Wind damage overall.<br><br>That being said, she's fair PvP and PvE costume, offering MRES reduction and decent damage. New Burst mechanic will allow her to have 1CD, which may or may not be impactful further on.",
+    "pullPriority": "r",
+    "pullReason": "Venaka alone is decent DPS, but she's completely blasted out of the competition by Nebris and Tyr, who are the powerhouses for Wind damage overall.<br><br>That being said, she's fair PvP and PvE costume, offering MRES reduction and decent damage. New Burst mechanic will allow her to have 1CD, which may or may not be impactful further on.",
     "pros": [
       [
         "Decent damage"
@@ -992,7 +1024,8 @@
         "-1 SP"
       ]
     ],
-    "pullReason": "<b>See notes further</b>. This Costume seems to be quite niche, however, she has tremendous raw values.<br><br>If you invested in Mamonir beforehand, she is most likely <b>Recommended</b>.<br>If you did not invest in Mamonir, she is more like <b>Optional</b>.<br><br>Mamonir was already used as Support even outside Water seasons, and this Costume will probably force it down even more. Therefore +1 can be a compromise to maintain her viability without heavily investing before Anniversary.",
+    "pullPriority": "sr",
+    "pullReason": "This Costume seems to be quite niche, however, she has tremendous raw values.<br><br>If you invested in Mamonir beforehand, she is most likely <b>Recommended</b>.<br>If you did not invest in Mamonir, she is more like <b>Optional</b>.<br><br>Mamonir was already used as Support even outside Water seasons, and this Costume will probably force it down even more. Therefore +1 can be a compromise to maintain her viability without heavily investing before Anniversary.",
     "pros": [
       "Tremendous Vulnerability amount",
       "Filling the gap for rotation",
@@ -1021,7 +1054,8 @@
         "As baseline for futher upgrades"
       ]
     ],
-    "pullReason": "<b>Ideally, yes, but... (Recommended / Optional)</b>. Getting at least +0 is a great, since this the best Water Mage DPS at the moment.<br>However, her output heavily scales with copies, and overcommitting to the banner can bite you during the Anniversary.",
+    "pullPriority": "sr",
+    "pullReason": "Getting at least +0 is a great, since this the best Water Mage DPS at the moment.<br>However, her output heavily scales with copies, and overcommitting to the banner can bite you during the Anniversary.",
     "pros": [
       "Best Water Magic DPS",
       "Versatile Costume"
@@ -1057,7 +1091,8 @@
         "higher Chain DMG Gain"
       ]
     ],
-    "pullReason": "<b>Meta</b>. She will help the other costumes of her to do just more DMG and can stack a few chains on off turns on longer fights. The Buff has a full uptime which is always good!",
+    "pullPriority": "sr",
+    "pullReason": "She will help the other costumes of her to do just more DMG and can stack a few chains on off turns on longer fights. The Buff has a full uptime which is always good!",
     "pros": [
       "Selfbuff-Costume",
       "Chainer for other DPSes"
@@ -1085,7 +1120,8 @@
         "-1 SP"
       ]
     ],
-    "pullReason": "<b>Maybe</b>. She is mostly a PVP Unit for now with just one costume. High Chain are good in Last Night. Otherwise not really worth the pulls for now.",
+    "pullPriority": "r",
+    "pullReason": "She is mostly a PVP Unit for now with just one costume. High Chain are good in Last Night. Otherwise not really worth the pulls for now.",
     "pros": [
       "High Chains",
       "First Costumes that can ignore Evades"
@@ -1114,7 +1150,8 @@
         "-1 SP"
       ]
     ],
-    "pullReason": "<b>No</b>. Michaela can buff herself for strong follow up turns with her 'Queen of Signatures'-Costume. Big Downside is her HP-Reduction from useing this Skill. Pattern also not the greatest.",
+    "pullPriority": "n",
+    "pullReason": "Michaela can buff herself for strong follow up turns with her 'Queen of Signatures'-Costume. Big Downside is her HP-Reduction from useing this Skill. Pattern also not the greatest.",
     "pros": [
       "Increase of MATK"
     ],
@@ -1143,7 +1180,8 @@
         "-1 SP"
       ]
     ],
-    "pullReason": "<b>Recommanded</b>. Darian is a great DPS... if she can hit enough tiles. She mostly suffers from the weak Skillpattern. Darian is a stable atm in Last Night and every FH / GR her Attack hits a lot of tiles otherwise she is outclassed by other water dpses.",
+    "pullPriority": "sr",
+    "pullReason": "Darian is a great DPS... if she can hit enough tiles. She mostly suffers from the weak Skillpattern. Darian is a stable atm in Last Night and every FH / GR her Attack hits a lot of tiles otherwise she is outclassed by other water dpses.",
     "pros": [
       "High DMG on Main Target"
     ],
@@ -1170,7 +1208,8 @@
         "-1 SP"
       ]
     ],
-    "pullReason": "<b>Optional</b>. Justia really suffers from beeing an old Unit. Her main focus is fixed DMG which this costume helps via selfbuff. Problem is just Fixed DMG is really bad outside of PVP. And even in PVP Olivier pretty much replaced her there with a preemptive Evade.",
+    "pullPriority": "r",
+    "pullReason": "Justia really suffers from beeing an old Unit. Her main focus is fixed DMG which this costume helps via selfbuff. Problem is just Fixed DMG is really bad outside of PVP. And even in PVP Olivier pretty much replaced her there with a preemptive Evade.",
     "pros": [
       "Selfbuff",
       "100% Evades"
@@ -1198,7 +1237,8 @@
         "-1 SP"
       ]
     ],
-    "pullReason": "<b>Optional</b>. Schera is PVP stable and those that enjoy PVP want her. Otherwise for Newbies / Casuals just get a Copy if you want for the Wallpaper / Gacha Skin and then move on.",
+    "pullPriority": "r",
+    "pullReason": "Schera is PVP stable and those that enjoy PVP want her. Otherwise for Newbies / Casuals just get a Copy if you want for the Wallpaper / Gacha Skin and then move on.",
     "pros": [
       "Cheap SP Costs",
       "Remove from Buff"
@@ -1231,7 +1271,8 @@
         "Higher Duration (4 &rarr; 8 Turns)"
       ]
     ],
-    "pullReason": "<b>Absolutely (Must)</b>. Teresse is a must have support thanks to her versatility for both Magic and Physical teams. Additionally, her buff is not diluted by most buffs (except another Augmentation and Vulnerability), which makes her multiply damage outputeffectively.<br><br>The only downside is locking your team onto low chains setup, which is slight problem for Guild Raid and sometimes Fiend Hunter, but otherwise, she carries insane value as a Support.",
+    "pullPriority": "ur",
+    "pullReason": "Teresse is a must have support thanks to her versatility for both Magic and Physical teams. Additionally, her buff is not diluted by most buffs (except another Augmentation and Vulnerability), which makes her multiply damage outputeffectively.<br><br>The only downside is locking your team onto low chains setup, which is slight problem for Guild Raid and sometimes Fiend Hunter, but otherwise, she carries insane value as a Support.",
     "pros": [
       "Meta Support",
       "Strong Buff Value in unique damage bracket",
@@ -1265,7 +1306,8 @@
         "Increased Crit DMG Buff (100 &rarr; 150%)"
       ]
     ],
-    "pullReason": "<b>Depends (Optional / Recommended)</b>. To put it simply, if you have your Granhildr already built, she is important to get at least +3 for the maximum self-buff value for Boo Ghost Costume. Otherwise, you could compromise at +1, since, without strong Comeback Idol and Boo Ghost dupes, her damage will not be great.<br><br>Buff requirenment is very easy to obtain, so she will work as Beach Sylvia in that regard most of the time.",
+    "pullPriority": "r",
+    "pullReason": "To put it simply, if you have your Granhildr already built, she is important to get at least +3 for the maximum self-buff value for Boo Ghost Costume. Otherwise, you could compromise at +1, since, without strong Comeback Idol and Boo Ghost dupes, her damage will not be great.<br><br>Buff requirenment is very easy to obtain, so she will work as Beach Sylvia in that regard most of the time.",
     "pros": [
       "Self-buffer",
       "Makes rotation a bit more clear",

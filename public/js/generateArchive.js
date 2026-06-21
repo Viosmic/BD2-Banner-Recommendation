@@ -38,7 +38,7 @@ function createCostumeList( characters, bannerRec ) {
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-function createCostumeRecCards( costumeList, damageAttributes ) {
+function createCostumeRecCards( costumeList, utils ) {
   /** @type { HTMLDivElement } */
   const container = document.getElementById( 'main-container' );
 
@@ -46,6 +46,8 @@ function createCostumeRecCards( costumeList, damageAttributes ) {
   const template = document.getElementById( 'costumeCard' );
 
   const modesArray = [ 'gr', 'fh', 'ln', 'tos', 'mw', 'gc', 'gen' ];
+  const damageAttributes = utils[ 'damageAttributes' ];
+  const pullPriorityMap = utils[ 'pullPriority' ];
 
   for ( const costume of costumeList ) {
     const costumeCard = template.content.cloneNode( true );
@@ -130,9 +132,9 @@ function createCostumeRecCards( costumeList, damageAttributes ) {
     createBreakpoints( breakpointsContainer, rec.breakpoints );
     breakpointsContainer.classList.remove( 'data-breakpoints' );
 
-    const pullReason = costumeCard.querySelector( '[ data-pull-reason ]' );
-    pullReason.innerHTML = rec.pullReason;
-    pullReason.classList.remove( 'data-pull-reason' );
+    const pullRec = costumeCard.querySelector( '[ data-pull-rec ]' );
+    createPullRecommand( pullRec, pullPriorityMap, rec.pullPriority, rec.pullReason );
+    pullRec.classList.remove( 'data-pull-rec' );
 
     //Pros and Cons
     const pros = costumeCard.querySelector( '[ data-pros ]' );
@@ -227,16 +229,27 @@ function addListElements( list, dataArray ) {
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+function createPullRecommand( container, map, prio, reason ) {
+  const prioContainer = document.createElement( 'b' );
+  prioContainer.classList.add( `text-${ prio }` );
+  prioContainer.textContent = map[ prio ];
+
+  container.append( prioContainer );
+  container.innerHTML += ` ${ reason }`;
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 async function init() {
-  const [ characters, archiveData, utilsJson ] = await Promise.all( [
+  const [ characters, archiveData, utils ] = await Promise.all( [
     fetch( './public/json/character_info.json' ).then( res => res.json() ),
     fetch( './public/json/archive_data.json' ).then( res => res.json() ),
     fetch( './public/json/utils.json' ).then( res => res.json() )
   ] );
 
-
   const costumeList = createCostumeList( characters, archiveData );
 
-  createCostumeRecCards( costumeList, utilsJson[ 'damageAttributes' ] );
+  createCostumeRecCards( costumeList, utils );
 }
 init();
