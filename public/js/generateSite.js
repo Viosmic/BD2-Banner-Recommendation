@@ -58,11 +58,18 @@ async function createBannerCards( bannerData, utils ) {
   const template = document.getElementById( 'charBannerCard' );
 
   /** @type { HTMLSelectElement } */
-  const shortcutContainer = document.querySelector( '[ data-shortcut-container ]' );
-  shortcutContainer.addEventListener( 'change', ( event ) => {
+  const shortcutContainerSmall = document.querySelector( '[ data-shortcut-container-small ]' );
+  shortcutContainerSmall.addEventListener( 'change', ( event ) => {
     document.getElementById( event.target.value ).scrollIntoView( { behavior: "smooth", block: "start", inline: "nearest" } );
   } );
-  shortcutContainer.removeAttribute( 'data-shortcut-container' );
+  shortcutContainerSmall.removeAttribute( 'data-shortcut-container-small' );
+
+  /** @type { HTMLSelectElement } */
+  const shortcutContainerBig = document.querySelector( '[ data-shortcut-container-big ]' );
+  shortcutContainerBig.addEventListener( 'change', ( event ) => {
+    document.getElementById( event.target.value ).scrollIntoView( { behavior: "smooth", block: "start", inline: "nearest" } );
+  } );
+  shortcutContainerBig.removeAttribute( 'data-shortcut-container-big' );
 
   const modesArray = [ 'gr', 'fh', 'ln', 'tos', 'mw', 'gc', 'gen' ];
   const damageAttributes = utils[ 'damageAttributes' ];
@@ -188,10 +195,15 @@ async function createBannerCards( bannerData, utils ) {
 
     container.appendChild( bannerCard );
 
-    const shortcutOption = document.createElement( 'option' );
-    shortcutOption.textContent = `${ bannerChar.costumeName } ${ bannerChar.charName }`;
-    shortcutOption.value = bannerChar.imgName;
-    shortcutContainer.append( shortcutOption );
+    const shortcutOptionSmall = document.createElement( 'option' );
+    shortcutOptionSmall.textContent = `${ bannerChar.costumeName } ${ bannerChar.charName }`;
+    shortcutOptionSmall.value = bannerChar.imgName;
+    shortcutContainerSmall.append( shortcutOptionSmall );
+
+    const shortcutOptionBig = document.createElement( 'option' );
+    shortcutOptionBig.textContent = `${ bannerChar.costumeName } ${ bannerChar.charName }`;
+    shortcutOptionBig.value = bannerChar.imgName;
+    shortcutContainerBig.append( shortcutOptionBig );
   }
 
   template.remove();
