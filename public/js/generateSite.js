@@ -1,5 +1,8 @@
+const DAY_IN_MS = 86400000;
+const HOUR_IN_MS = 3600000;
+const MIN_IN_MS = 60000;
+
 let timeLeftUpdateInterval = null;
-const timeLeftArray = [];
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -147,17 +150,17 @@ async function createBannerCards( bannerData, utils ) {
     periodeLine.classList.remove( 'data-banner-periode' );
 
     const timeLeftLine = bannerCard.querySelector( '[ data-banner-time-left ]' );
-    const [ days, hours, minutes ] = calcTimeLeftOnBanner( endDate );
-    if ( days < 0 || hours < 0 || minutes < 0 ) {
+    const [ days, hours, minutes, seconds ] = calcTimeLeftOnBanner( endDate );
+    if ( days < 0 || hours < 0 || minutes < 0 || seconds < 0 ) {
       removeTldrContainerElement( bannerChar.imgName );
       continue;
     }
     if ( checkBannerStarted( startDate ) ) {
       timeLeftLine.append( `Banner didn${ String.fromCharCode( 39 ) }t start yet!` ); //39 -> '
     } else {
-      const timeLeftContainer = getTimeLeftSpan( [ days, hours, minutes ] );
+      const timeLeftContainer = getTimeLeftSpan( [ days, hours, minutes, seconds ] );
+      timeLeftContainer.dataset.endDate = bannerChar.endDate;
       timeLeftLine.append( 'Banner ends in ', timeLeftContainer, ' !' );
-      timeLeftArray.push( [ endDate, timeLeftContainer ] );
     }
     timeLeftLine.classList.remove( 'data-banner-time-left' );
 
@@ -239,15 +242,17 @@ function checkBannerStarted( start ) {
   return ( start.getTime() - new Date().getTime() ) > 0;
 }
 
-function getTimeLeftSpan( [ days, hours, minutes ] ) {
-  let textColor = 'text-warning';
-  if ( days < 4 ) {
-    textColor = 'text-danger'
+function getTimeLeftSpan( [ days, hours, minutes, seconds ] ) {
+  let textColor = 'text-teal';
+  if ( days < 6 ) {
+    textColor = 'text-warning';
+  } else if ( days < 4 ) {
+    textColor = 'text-danger';
   }
 
   const timeLeftContainer = document.createElement( 'span' );
   timeLeftContainer.classList.add( textColor );
-  timeLeftContainer.textContent = createTimeLeftString( [ days, hours, minutes ] );
+  timeLeftContainer.textContent = createTimeLeftString( [ days, hours, minutes, seconds ] );
 
   return timeLeftContainer;
 }
@@ -258,26 +263,30 @@ function getTimeLeftSpan( [ days, hours, minutes ] ) {
 function calcTimeLeftOnBanner( end ) {
   let dateDiff = end.getTime() - new Date().getTime();
 
-  const daysLeft = Math.trunc( dateDiff / ( 1000 * 60 * 60 * 24 ) );
-  dateDiff %= ( 1000 * 60 * 60 * 24 );
+  const daysLeft = Math.trunc( dateDiff / DAY_IN_MS );
+  dateDiff %= DAY_IN_MS;
 
-  const hoursLeft = Math.trunc( dateDiff / ( 1000 * 60 * 60 ) );
-  dateDiff %= ( 1000 * 60 * 60 );
+  const hoursLeft = Math.trunc( dateDiff / HOUR_IN_MS );
+  dateDiff %= HOUR_IN_MS;
 
-  const minutesLeft = Math.trunc( dateDiff / ( 1000 * 60 ) );
+  const minutesLeft = Math.trunc( dateDiff / MIN_IN_MS );
+  dateDiff %= MIN_IN_MS;
 
-  return [ daysLeft, hoursLeft, minutesLeft ];
+  const secondsLeft = Math.trunc( dateDiff / 1000 );
+
+  return [ daysLeft, hoursLeft, minutesLeft, secondsLeft ];
 }
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-function createTimeLeftString( [ days, hours, minutes ] ) {
+function createTimeLeftString( [ days, hours, minutes, seconds ] ) {
   const daysLeft = String( days ).padStart( 2, '0' );
   const hoursLeft = String( hours ).padStart( 2, '0' );
   const minutesLeft = String( minutes ).padStart( 2, '0' );
+  const secondsLeft = String( seconds ).padStart( 2, '0' );
 
-  return `${ daysLeft } D : ${ hoursLeft } h : ${ minutesLeft } min`;
+  return `${ daysLeft } D : ${ hoursLeft } h : ${ minutesLeft } min : ${ secondsLeft } sec`;
 }
 
 
@@ -360,23 +369,22 @@ function createPullRecommand( container, map, prio, reason ) {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 function initTimeLeftInterval() {
-  const now = new Date();
-  const msUntilNextMin = ( 60 - now.getSeconds() ) * 1000 - now.getMilliseconds();
+  const msUntilNextSec = 1000 - new Date().getMilliseconds();
 
   setTimeout( () => {
     updateBannerTimeLeft();
-    timeLeftUpdateInterval = setInterval( updateBannerTimeLeft, 60000 );
-  }, msUntilNextMin );
+    timeLeftUpdateInterval = setInterval( updateBannerTimeLeft, 1000 );
+  }, msUntilNextSec );
 }
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 function updateBannerTimeLeft() {
-  for( const [ endDate, span ] of timeLeftArray ) {
-    const timeLeft = calcTimeLeftOnBanner( endDate );
-    span.textContent = createTimeLeftString( timeLeft );
-  }
+  document.querySelectorAll( '[ data-end-date ]' ).forEach( element => {
+    const timeArray = calcTimeLeftOnBanner( new Date( element.dataset.endDate ) );
+    element.textContent =  createTimeLeftString( timeArray );
+  } );
 }
 
 

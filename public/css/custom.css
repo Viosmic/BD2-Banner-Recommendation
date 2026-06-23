@@ -75,6 +75,10 @@ section {
   color: transparent;
 }
 
+.text-teal {
+  color: var( --bs-teal );
+}
+
 .small-header {
     display: none;
   }
@@ -83,7 +87,24 @@ section {
   display: flex;
 }
 
+@media ( max-width: 414px ) {
+  .tablist-entry .nav-link {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+}
 
+@media ( max-width: 450px ) {
+  .tablist-entry {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .tablist-entry .nav-link {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
 
 @media (max-width: 768px) {
   .borderless {
