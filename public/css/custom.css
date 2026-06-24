@@ -3,11 +3,15 @@
   max-width: 100%;
 }
 
+#main-container {
+  display: none;
+}
+
 #main-container:last-child {
   padding-bottom: 0.5rem;
 }
 
-header {
+.sticky-header {
   position: sticky;
   top: 0;
   z-index: 100;
@@ -85,6 +89,22 @@ section {
 
 .big-header {
   display: flex;
+}
+
+@media ( min-width: 350px ) {
+  #main-container {
+    display: inline;
+  }
+  .to-small {
+    display: none;
+  }
+}
+
+@media ( max-width: 370px ) {
+  .no-px {
+    padding-left: 0.25rem;
+    padding-right: 0;
+  }
 }
 
 @media ( max-width: 414px ) {
