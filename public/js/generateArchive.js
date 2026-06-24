@@ -195,6 +195,14 @@ function createBreakpoints( container, breakpoints ) {
     const listElement = document.createElement( 'li' );
     listElement.classList.add( 'list-group-item' );
 
+    const listContainer = document.createElement( 'div' );
+    listContainer.classList.add( 'container-fluid' );
+
+    const row = document.createElement( 'div' );
+    row.classList.add( 'row', 'flex-row' );
+
+    const pictureCol = document.createElement( 'div' );
+    pictureCol.classList.add( 'col-auto', 'px-0', 'align-content-center' );
     const picture = document.createElement( 'picture' );
     picture.classList.add( 'pe-2' );
 
@@ -212,12 +220,16 @@ function createBreakpoints( container, breakpoints ) {
     dupeImg.height = 35;
 
     picture.append( source, dupeImg );
+    pictureCol.append( picture );
 
-    const breakpointComment = document.createElement( 'span' );
-    breakpointComment.innerHTML = comment;
-    listElement.append( picture, breakpointComment );
+    const breakpointComment = document.createElement( 'div' );
+    breakpointComment.classList.add( 'col', 'text-start', 'align-content-center' );
+    breakpointComment.textContent = comment.replaceAll( '&rarr;', String.fromCharCode( '10230' ) );
 
-    container.appendChild( listElement );
+    row.append( pictureCol, breakpointComment );
+    listContainer.append( row );
+    listElement.append( listContainer );
+    container.append( listElement );
   }
 }
 

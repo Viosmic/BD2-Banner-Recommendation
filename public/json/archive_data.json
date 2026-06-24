@@ -8,11 +8,11 @@
     "breakpoints": [
       [
         "2",
-        "Big Damage Increase<br>[1160% &xrarr; 1400%, 8 SP consumed]"
+        "Big Damage Increase [ 1160% &rarr; 1400%, 8 SP consumed ]"
       ],
       [
         "4",
-        "Big Damage Increase<br>[1450% &xrarr; 1690%, 8 SP consumed]"
+        "Big Damage Increase [ 1450% &rarr; 1690%, 8 SP consumed ]"
       ]
     ],
     "pullPriority": "r",
@@ -100,10 +100,10 @@
       ]
     ],
     "pullPriority": "ur",
-    "pullReason": "She is an important support for Fiend Hunter / Guild Raid. Her +3 dupe gives ability to use the costume for free (assuming Potential Liberation done), which is important in a lot of cases.",
+    "pullReason": "She is an important support for Fiend Hunter / Guild Raid. Her +3 dupe gives ability to use the costume for free [ assuming Potential Liberation done ], which is important in a lot of cases.",
     "pros": [
       "Single Target Chainer",
-      "Good Amplifier (Universal Vulnerability)",
+      "Good Amplifier [ Universal Vulnerability ]",
       "Imporant for a lot of modes"
     ],
     "cons": [],
@@ -149,13 +149,13 @@
     "pros": [
       "Buffer / Support",
       "SP Battery",
-      "Suitable for General content (newbie-friendly)"
+      "Suitable for General content [ newbie-friendly ]"
     ],
     "cons": [],
     "modes": {
       "gr": "Meta",
       "fh": "Meta",
-      "ln": "Decent (need more testing)",
+      "ln": "Decent [ need more testing ]",
       "tos": "Good / Meta for magic teams",
       "mw": "?",
       "gc": "?",
@@ -175,7 +175,7 @@
       ]
     ],
     "pullPriority": "r",
-    "pullReason": "Unless you have a lot of spare pulls. This costume has great damage capabilities for a nuker like Ventana, but high breakpoint (+3) and other banners priorities shift focus from this one.",
+    "pullReason": "Unless you have a lot of spare pulls. This costume has great damage capabilities for a nuker like Ventana, but high breakpoint [ +3 ] and other banners priorities shift focus from this one.",
     "pros": [
       "Good Physical Nuker",
       "Highest multiplier amongst Ventana's costumes",
@@ -271,7 +271,7 @@
       ],
       [
         "3",
-        "Huge Light Vulnerability increase (100 &rarr; 200%)"
+        "Huge Light Vulnerability increase [ 100 &rarr; 200% ]"
       ]
     ],
     "pullPriority": "r",
@@ -337,11 +337,11 @@
       ],
       [
         "3",
-        "Conditional skill DMG increase (70% &rarr; 90%)"
+        "Conditional skill DMG increase [ 70% &rarr; 90% ]"
       ],
       [
         "5",
-        "Conditional skill DMG increase (90% &rarr; 110%)"
+        "Conditional skill DMG increase [ 90% &rarr; 110% ]"
       ]
     ],
     "pullPriority": "r",
@@ -408,7 +408,7 @@
     "breakpoints": [
       [
         "2",
-        "Increased hits amount for counter (8 &rarr; 10)"
+        "Increased hits amount for counter [ 8 &rarr; 10 ]"
       ]
     ],
     "pullPriority": "r",
@@ -443,15 +443,15 @@
       ]
     ],
     "pullPriority": "sr",
-    "pullReason": "While this costume has own issues and just dilutes the Property Damage Increase, it still is a buffer and you basically lose nothing when using it.<br>+0 already gives 100% Property Damage buff (on max stacks) which is good enough if you're new player, higher dupes are important for mostly rankers and late-game players.",
+    "pullReason": "While this costume has own issues and just dilutes the Property Damage Increase, it still is a buffer and you basically lose nothing when using it.<br>+0 already gives 100% Property Damage buff [ on max stacks ] which is good enough if you're new player, higher dupes are important for mostly rankers and late-game players.",
     "pros": [
       "Decent buff with full stacks",
       "Preemptive costume",
       "Increases Diana's tankiness on the field",
-      "Moderately cheap summon that can be used as a meat shield for cheesing some fights (although niche)"
+      "Moderately cheap summon that can be used as a meat shield for cheesing some fights [ although niche ]"
     ],
     "cons": [
-      "Slow to gain max buff (7 turns)",
+      "Slow to gain max buff [ 7 turns ]",
       "Summon must always activate the ability to keep the stacks",
       "Summon has mediocre AoE"
     ],
@@ -474,11 +474,11 @@
     "breakpoints": [
       [
         "2",
-        "Bigger increase of both base & conditional damage (400% &rarr; 475%; 600% &rarr; 675%) "
+        "Bigger increase of both base & conditional damage [ 400% &rarr; 475%; 600% &rarr; 675% ] "
       ],
       [
         "4",
-        "Bigger increase of both base & conditional damage (475% &rarr; 550%; 725% &rarr; 800%) "
+        "Bigger increase of both base & conditional damage [ 475% &rarr; 550%; 725% &rarr; 800% ] "
       ]
     ],
     "pullPriority": "r",
@@ -514,11 +514,11 @@
       ],
       [
         "2",
-        "Domain MATK Buff Increase (60% &rarr; 80%)"
+        "Domain MATK Buff Increase [ 60% &rarr; 80% ]"
       ],
       [
         "4",
-        "Domain MATK Buff Increase (80% &rarr; 100%)"
+        "Domain MATK Buff Increase [ 80% &rarr; 100% ]"
       ]
     ],
     "pullPriority": "sr",
@@ -526,13 +526,13 @@
     "pros": [
       "At very least, great self-buff costume",
       "Decent Chain count",
-      "Allows Olivier to be a decent support (assuming having Faithful Wings costume)"
+      "Allows Olivier to be a decent support [ assuming having Faithful Wings costume ]"
     ],
     "cons": [
       "High SP to use in general contest as support",
       "Conficting Domains mean competing in usage with Eleanner off-element",
       "Somewhat weak AoE",
-      "No full up-time (for GR, for example)"
+      "No full up-time [ for GR, for example ]"
     ],
     "modes": {
       "gr": "Very Good",
@@ -558,15 +558,15 @@
       ],
       [
         "3",
-        "Crit DMG Buff Duration Increase (4 &rarr; 6 turns)"
+        "Crit DMG Buff Duration Increase [ 4 &rarr; 6 turns ]"
       ],
       [
         "4",
-        "Crit DMG Buff Increase (400% &rarr; 500%)"
+        "Crit DMG Buff Increase [ 400% &rarr; 500% ]"
       ]
     ],
     "pullPriority": "r",
-    "pullReason": "While this is mostly self-buff costume, it is worthless without rest Michaela Costumes, especially Queen of Signatures one. It has great AoE but her damage ruins that benefit of hers.<br>You could invest if you build Michaela, but that's about it.<br><br> <i>Don't forget to recruit her in <b>pub (Random Appearance)</b> for free 10 tickets during her rerun.",
+    "pullReason": "While this is mostly self-buff costume, it is worthless without rest Michaela Costumes, especially Queen of Signatures one. It has great AoE but her damage ruins that benefit of hers.<br>You could invest if you build Michaela, but that's about it.<br><br> <i>Don't forget to recruit her in <b>pub [ Random Appearance ]</b> for free 10 tickets during her rerun.",
     "pros": [
       "Great Crit DMG self-buff"
     ],
@@ -696,7 +696,7 @@
       ]
     ],
     "pullPriority": "sr",
-    "pullReason": "Despite being HP-based damage dealer, she got everything you could ask for: low cost, great AoE, high chain count and great damage. Second costume should be released soon as well, filling the missing rotation.<br><br>Keep in mind Mamonir will be accesible in <u><b>Pub (Random pool)</b></u>, so make sure to recruit her for 10 tickets as well as reducing tickets usage on the banner.",
+    "pullReason": "Despite being HP-based damage dealer, she got everything you could ask for: low cost, great AoE, high chain count and great damage. Second costume should be released soon as well, filling the missing rotation.<br><br>Keep in mind Mamonir will be accesible in <u><b>Pub [ Random pool ]</b></u>, so make sure to recruit her for 10 tickets as well as reducing tickets usage on the banner.",
     "pros": [
       "Great AoE",
       "Great Continous Damage",
@@ -704,7 +704,7 @@
       "Great self-buff compensating build specifics"
     ],
     "cons": [
-      "Need specific (HP) gear to work",
+      "Need specific [ HP ] gear to work",
       "Has a rotation gap"
     ],
     "modes": {
@@ -797,11 +797,11 @@
       ],
       [
         "2",
-        "Self-buff increase (60% &rarr; 80% ATK)"
+        "Self-buff increase [ 60% &rarr; 80% ATK ]"
       ],
       [
         "4",
-        "Self-buff increase (80% &rarr; 100% ATK)"
+        "Self-buff increase [ 80% &rarr; 100% ATK ]"
       ]
     ],
     "pullPriority": "n",
@@ -835,11 +835,11 @@
       ],
       [
         "3",
-        "Augmentation increase (400% &rarr; 650%)"
+        "Augmentation increase [ 400% &rarr; 650% ]"
       ],
       [
         "5",
-        "Augmentation increase (650% &rarr; 900%)"
+        "Augmentation increase [ 650% &rarr; 900% ]"
       ]
     ],
     "pullPriority": "n",
@@ -871,11 +871,11 @@
       ],
       [
         "3",
-        "Frostbite Damage increase (10% &rarr; 15%)"
+        "Frostbite Damage increase [ 10% &rarr; 15% ]"
       ],
       [
         "5",
-        "Frostbite Damage increase (15% &rarr; 20%)"
+        "Frostbite Damage increase [ 15% &rarr; 20% ]"
       ]
     ],
     "pullPriority": "r",
@@ -950,7 +950,7 @@
       ],
       [
         "3",
-        "Crit Rate increase (40% &rarr; 70%)"
+        "Crit Rate increase [ 40% &rarr; 70% ]"
       ]
     ],
     "pullPriority": "sr",
@@ -963,7 +963,7 @@
       "Fills Liberta downtime"
     ],
     "cons": [
-      "Not a buffer (compared to rest her costumes)"
+      "Not a buffer [ compared to rest her costumes ]"
     ],
     "modes": {
       "gr": "Decent",
@@ -989,11 +989,11 @@
       ],
       [
         "3",
-        "DoT Vulnerability increase (150% &rarr; 200%)"
+        "DoT Vulnerability increase [ 150% &rarr; 200% ]"
       ],
       [
         "5",
-        "DoT Vulnerability increase (200% &rarr; 250%)"
+        "DoT Vulnerability increase [ 200% &rarr; 250% ]"
       ]
     ],
     "pullPriority": "sr",
@@ -1155,7 +1155,7 @@
       "gr": "Meta",
       "fh": "Meta",
       "ln": "Not playable",
-      "tos": "Good (Staller + DPS)",
+      "tos": "Good [ Staller + DPS ]",
       "mw": "Mid / Bad",
       "gc": "Not used",
       "gen": "Mid / Niche"
@@ -1374,11 +1374,11 @@
       ],
       [
         "3",
-        "Higher Duration (4 &rarr; 8 Turns)"
+        "Higher Duration [ 4 &rarr; 8 Turns ]"
       ]
     ],
     "pullPriority": "ur",
-    "pullReason": "Teresse is a must have support thanks to her versatility for both Magic and Physical teams. Additionally, her buff is not diluted by most buffs (except another Augmentation and Vulnerability), which makes her multiply damage outputeffectively.<br><br>The only downside is locking your team onto low chains setup, which is slight problem for Guild Raid and sometimes Fiend Hunter, but otherwise, she carries insane value as a Support.",
+    "pullReason": "Teresse is a must have support thanks to her versatility for both Magic and Physical teams. Additionally, her buff is not diluted by most buffs [ except another Augmentation and Vulnerability ], which makes her multiply damage outputeffectively.<br><br>The only downside is locking your team onto low chains setup, which is slight problem for Guild Raid and sometimes Fiend Hunter, but otherwise, she carries insane value as a Support.",
     "pros": [
       "Meta Support",
       "Strong Buff Value in unique damage bracket",
@@ -1412,7 +1412,7 @@
       ],
       [
         "3",
-        "Increased Crit DMG Buff (100 &rarr; 150%)"
+        "Increased Crit DMG Buff [ 100 &rarr; 150% ]"
       ]
     ],
     "pullPriority": "r",
@@ -1423,8 +1423,8 @@
       "Cheap damage"
     ],
     "cons": [
-      "Useless without invested other Granhildr Costumes (Comeback Idol + Boo Ghost)",
-      "Not the best CDMG Buff value (200% only)"
+      "Useless without invested other Granhildr Costumes [ Comeback Idol + Boo Ghost ]",
+      "Not the best CDMG Buff value [ 200% only ]"
     ],
     "modes": {
       "gr": "Good",

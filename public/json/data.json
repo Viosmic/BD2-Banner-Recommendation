@@ -125,10 +125,10 @@
       "prio": 1,
       "breakpoints": [
         ["1", "-1 SP"],
-        ["3", "Higher Duration (4 &rarr; 8 Turns)"]
+        ["3", "Higher Duration [ 4 &rarr; 8 Turns ]"]
       ],
       "pullPriority": "ur",
-      "pullReason": "Teresse is a must have support thanks to her versatility for both Magic and Physical teams. Additionally, her buff is not diluted by most buffs (except another Augmentation and Vulnerability), which makes her multiply damage outputeffectively.<br><br>The only downside is locking your team onto low chains setup, which is slight problem for Guild Raid and sometimes Fiend Hunter, but otherwise, she carries insane value as a Support.",
+      "pullReason": "Teresse is a must have support thanks to her versatility for both Magic and Physical teams. Additionally, her buff is not diluted by most buffs [ except another Augmentation and Vulnerability ], which makes her multiply damage outputeffectively.<br><br>The only downside is locking your team onto low chains setup, which is slight problem for Guild Raid and sometimes Fiend Hunter, but otherwise, she carries insane value as a Support.",
       "pros": [
         "Meta Support",
         "Strong Buff Value in unique damage bracket",
@@ -384,18 +384,18 @@
       "endDate": "2026-07-01T23:50:00.000Z",
       "breakpoints": [
         ["1", "-1 SP"],
-        ["3", "Increased Crit DMG Buff (100 &rarr; 150%)"]
+        ["3", "Increased Crit DMG Buff [ 100 &rarr; 150% ]"]
       ],
       "pullPriority": "r",
       "pullReason": "To put it simply, if you have your Granhildr already built, she is important to get at least +3 for the maximum self-buff value for Boo Ghost Costume. Otherwise, you could compromise at +1, since, without strong Comeback Idol and Boo Ghost dupes, her damage will not be great.<br><br>Buff requirenment is very easy to obtain, so she will work as Beach Sylvia in that regard most of the time.",
       "pros": [
-        "Self-buffer",
+        "Self-Buffer",
         "Makes rotation a bit more clear",
         "Cheap damage"
       ],
       "cons": [
-        "Useless without invested other Granhildr Costumes (Comeback Idol + Boo Ghost)",
-        "Not the best CDMG Buff value (200% only)"
+        "Useless without invested other Granhildr Costumes [ Comeback Idol + Boo Ghost ]",
+        "Not the best CDMG Buff value [ 200% only ]"
       ],
       "modes": {
         "gr": "Good",
