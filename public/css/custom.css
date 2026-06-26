@@ -122,6 +122,10 @@ th {
   margin-right: 0.25rem;
 }
 
+.pros-cons-flex-direction {
+  flex-direction: column;
+}
+
 @media ( min-width: 350px ) {
   #main-container {
     display: inline;
@@ -198,5 +202,14 @@ th {
 @media ( min-width: 769px ) and ( max-width: 900px ) {
   .navbar select {
     max-width: 10rem;
+  }
+}
+
+@media ( min-width: 1200px ) {
+  .pros-cons-flex-direction {
+    flex-direction: row;
+  }
+  .pros-cons-splitter {
+    border-right: 3px solid var( --bs-border-color );
   }
 }

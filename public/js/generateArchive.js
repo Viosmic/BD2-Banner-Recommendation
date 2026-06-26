@@ -98,11 +98,11 @@ function createCostumeRecCards( costumeList, utils ) {
     const title = document.createElement( 'h1' );
     title.textContent = `${ costume.costumeName } ${ costume.charName }`;
     cardTitle.appendChild( title );
-    cardTitle.classList.remove( 'data-banner-name' );
+    cardTitle.removeAttribute( 'data-banner-name' );
 
     const roleLine = costumeCard.querySelector( '[ data-role ]' );
     createRoleBadges( roleLine, costumeRoles, rec.roles );
-    roleLine.classList.remove( 'data-role' );
+    roleLine.removeAttribute( 'data-role' );
 
     const dmgAtt = damageAttributes[ costume.dmgAtt ];
 
@@ -112,7 +112,7 @@ function createCostumeRecCards( costumeList, utils ) {
       propertyImg.alt = dmgAtt.element;
       propertyImg.title = propertyImg.alt;
     }
-    propertyImg.classList.remove( 'data-property' );
+    propertyImg.removeAttribute( 'data-property' );
 
     const dmgTypeLine = costumeCard.querySelector( '[ data-dmg-type ]' );
     if ( dmgAtt.dmgType ) {
@@ -120,31 +120,31 @@ function createCostumeRecCards( costumeList, utils ) {
       dmgTypeLine.classList.add( `text-${ dmgAtt.dmgType.toLowerCase() }` );
       dmgTypeLine.appendChild( dmgTypeText );
     }
-    dmgTypeLine.classList.remove( 'data-dmg-type' );
+    dmgTypeLine.removeAttribute( 'data-dmg-type' );
 
     const startDate = new Date( Date.parse( rec.startDate ) );
     const endDate = new Date( Date.parse( rec.endDate ) );
     const periodeLine = costumeCard.querySelector( '[ data-banner-periode ]' );
     const periodeText = document.createTextNode( getBannerPeriodeLocalTimeString( startDate, endDate ) );
     periodeLine.appendChild( periodeText );
-    periodeLine.classList.remove( 'data-banner-periode' );
+    periodeLine.removeAttribute( 'data-banner-periode' );
 
     const breakpointsContainer = costumeCard.querySelector( '[ data-breakpoints ]' );
     createBreakpoints( breakpointsContainer, rec.breakpoints );
-    breakpointsContainer.classList.remove( 'data-breakpoints' );
+    breakpointsContainer.removeAttribute( 'data-breakpoints' );
 
     const pullRec = costumeCard.querySelector( '[ data-pull-rec ]' );
     createPullRecommand( pullRec, pullPriorityMap, rec.pullPriority, rec.pullReason );
-    pullRec.classList.remove( 'data-pull-rec' );
+    pullRec.removeAttribute( 'data-pull-rec' );
 
     //Pros and Cons
     const pros = costumeCard.querySelector( '[ data-pros ]' );
     addListElements( pros, rec.pros );
-    pros.classList.remove( 'data-pros' );
+    pros.removeAttribute( 'data-pros' );
 
     const cons = costumeCard.querySelector( '[ data-cons ]' );
     addListElements( cons, rec.cons );
-    cons.classList.remove( 'data-cons' );
+    cons.removeAttribute( 'data-cons' );
 
     //Modes
     const costumeModeRatings = rec.modes;
@@ -306,8 +306,10 @@ async function init() {
     fetch( './public/json/utils.json' ).then( res => res.json() )
   ] );
 
+  const s = performance.now();
   const costumeList = createCostumeList( characters, archiveData );
 
   createCostumeRecCards( costumeList, utils );
+  console.log( ( performance.now() - s ) + " ms" )
 }
 init();

@@ -123,11 +123,11 @@ async function createBannerCards( bannerData, utils ) {
     const title = document.createElement( 'h1' );
     title.textContent = `${ bannerChar.costumeName } ${ bannerChar.charName }`;
     cardTitle.appendChild( title );
-    cardTitle.classList.remove( 'data-banner-name' );
+    cardTitle.removeAttribute( 'data-banner-name' );
 
     const roleLine = bannerCard.querySelector( '[ data-role ]' );
     createRoleBadges( roleLine, costumeRoles, bannerChar.roles );
-    roleLine.classList.remove( 'data-role' );
+    roleLine.removeAttribute( 'data-role' );
 
     const propertyImg = bannerCard.querySelector( '[ data-property ]' );
     if ( dmgAtt.element ) {
@@ -135,20 +135,20 @@ async function createBannerCards( bannerData, utils ) {
       propertyImg.alt = dmgAtt.element;
       propertyImg.title = propertyImg.alt;
     }
-    propertyImg.classList.remove( 'data-property' );
+    propertyImg.removeAttribute( 'data-property' );
 
     const dmgTypeLine = bannerCard.querySelector( '[ data-dmg-type ]' );
     const dmgTypeText = document.createTextNode( dmgAtt.dmgType );
     dmgTypeLine.appendChild( dmgTypeText );
     dmgTypeLine.classList.add( `text-${ dmgAtt.dmgType.toLowerCase() }` );
-    dmgTypeLine.classList.remove( 'data-dmg-type' );
+    dmgTypeLine.removeAttribute( 'data-dmg-type' );
 
     const startDate = new Date( Date.parse( bannerChar.startDate ) );
     const endDate = new Date( Date.parse( bannerChar.endDate ) );
     const periodeLine = bannerCard.querySelector( '[ data-banner-periode ]' );
     const periodeText = document.createTextNode( getBannerPeriodeLocalTimeString( startDate, endDate ) );
     periodeLine.appendChild( periodeText );
-    periodeLine.classList.remove( 'data-banner-periode' );
+    periodeLine.removeAttribute( 'data-banner-periode' );
 
     const timeLeftLine = bannerCard.querySelector( '[ data-banner-time-left ]' );
     const [ days, hours, minutes, seconds ] = calcTimeLeftOnBanner( endDate );
@@ -163,26 +163,26 @@ async function createBannerCards( bannerData, utils ) {
       timeLeftContainer.dataset.endDate = bannerChar.endDate;
       timeLeftLine.append( 'Banner ends in ', timeLeftContainer, ' !' );
     }
-    timeLeftLine.classList.remove( 'data-banner-time-left' );
+    timeLeftLine.removeAttribute( 'data-banner-time-left' );
 
     const breakpointsContainer = bannerCard.querySelector( '[ data-breakpoints ]' );
     if ( bannerChar.breakpoints[ 0 ].length > 0 ) {
       createBreakpoints( breakpointsContainer, bannerChar.breakpoints );
     }
-    breakpointsContainer.classList.remove( 'data-breakpoints' );
+    breakpointsContainer.removeAttribute( 'data-breakpoints' );
 
     const pullRec = bannerCard.querySelector( '[ data-pull-rec ]' );
     createPullRecommand( pullRec, pullPriorityMap, bannerChar.pullPriority, bannerChar.pullReason );
-    pullRec.classList.remove( 'data-pull-rec' );
+    pullRec.removeAttribute( 'data-pull-rec' );
 
     //Pros and Cons
     const pros = bannerCard.querySelector( '[ data-pros ]' );
     addListElements( pros, bannerChar.pros );
-    pros.classList.remove( 'data-pros' );
+    pros.removeAttribute( 'data-pros' );
 
     const cons = bannerCard.querySelector( '[ data-cons ]' );
     addListElements( cons, bannerChar.cons );
-    cons.classList.remove( 'data-cons' );
+    cons.removeAttribute( 'data-cons' );
 
     //Modes
     const bannerCharModeSuggestions = bannerChar.modes;
